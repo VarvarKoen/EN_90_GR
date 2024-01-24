@@ -932,7 +932,8 @@ let en_1990_gr = [
 			pack : EN_1990_GR_PACK_3,
 			group : 'Depeche Mode',
 			song : "Enjoy The Silence",
-			year : 1990
+			year : 1990,
+			ignore : true
 		},
 		{
 			pack : EN_1990_GR_PACK_3,
@@ -950,7 +951,8 @@ let en_1990_gr = [
 			pack : EN_1990_GR_PACK_3,
 			group : 'Blur',
 			song : "Girls And Boys",
-			year : 1994
+			year : 1994,
+			ignore : true
 		},
 		{
 			pack : EN_1990_GR_PACK_3,
@@ -962,7 +964,8 @@ let en_1990_gr = [
 			pack : EN_1990_GR_PACK_3,
 			group : 'Blur',
 			song : "Song 2",
-			year : 1997
+			year : 1997,
+			ignore : true
 		},
 		{
 			pack : EN_1990_GR_PACK_5,
@@ -1760,6 +1763,24 @@ let en_1990_gr = [
 			group : 'U96',
 			song : "Heaven",
 			year : 1996
+		},
+		{
+			pack : EN_1990_GR_PACK_3,
+			group : 'Blur',
+			song : "The Universal",
+			year : 1995
+		},
+		{
+			pack : EN_1990_GR_PACK_3,
+			group : 'Blur',
+			song : "Beetlebum",
+			year : 1997
+		},
+		{
+			pack : EN_1990_GR_PACK_3,
+			group : 'Depeche Mode',
+			song : "It's No Good",
+			year : 1997
 		}
 ];
 
