@@ -980,7 +980,8 @@ let en_1990_gr = [
 			pack : EN_1990_GR_PACK_5,
 			group : 'Spice Girls',
 			song : "Move Over",
-			year : 1997
+			year : 1997,
+			ignore : true
 		},
 		{
 			pack : EN_1990_GR_PACK_7,
