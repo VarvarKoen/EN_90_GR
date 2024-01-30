@@ -1781,6 +1781,12 @@ let en_1990_gr = [
 			group : 'Depeche Mode',
 			song : "It's No Good",
 			year : 1997
+		},
+		{
+			pack : EN_1990_GR_PACK_8,
+			group : 'Misfits',
+			song : "Dig Up Her Bones",
+			year : 1997
 		}
 ];
 
