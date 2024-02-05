@@ -931,13 +931,6 @@ let en_1990_gr = [
 		{
 			pack : EN_1990_GR_PACK_3,
 			group : 'Depeche Mode',
-			song : "Enjoy The Silence",
-			year : 1990,
-			ignore : true
-		},
-		{
-			pack : EN_1990_GR_PACK_3,
-			group : 'Depeche Mode',
 			song : "Policy Of Truth",
 			year : 1990
 		},
@@ -950,22 +943,8 @@ let en_1990_gr = [
 		{
 			pack : EN_1990_GR_PACK_3,
 			group : 'Blur',
-			song : "Girls And Boys",
-			year : 1994,
-			ignore : true
-		},
-		{
-			pack : EN_1990_GR_PACK_3,
-			group : 'Blur',
 			song : "Country House",
 			year : 1995
-		},
-		{
-			pack : EN_1990_GR_PACK_3,
-			group : 'Blur',
-			song : "Song 2",
-			year : 1997,
-			ignore : true
 		},
 		{
 			pack : EN_1990_GR_PACK_5,
@@ -978,13 +957,6 @@ let en_1990_gr = [
 			group : 'Spice Girls',
 			song : "Say You'll Be There",
 			year : 1996
-		},
-		{
-			pack : EN_1990_GR_PACK_5,
-			group : 'Spice Girls',
-			song : "Move Over",
-			year : 1997,
-			ignore : true
 		},
 		{
 			pack : EN_1990_GR_PACK_7,
