@@ -1501,192 +1501,230 @@ let en_1990_gr = [
 		{
 			pack : EN_1990_GR_PACK_8,
 			group : 'Pearl Jam',
-			song : "Jeremy (1992)"
+			song : "Jeremy",
+			year : 1992
 		},
 		{
 			pack : EN_1990_GR_PACK_8,
 			group : 'Alice In Chains',
-			song : "Would? (1992)"
+			song : "Would?",
+			year : 1992
 		},
 		{
 			pack : EN_1990_GR_PACK_8,
 			group : 'Alice In Chains',
-			song : "Man in the Box (1990)"
+			song : "Man in the Box",
+			year : 1990
 		},
 		{
 			pack : EN_1990_GR_PACK_3,
 			group : "Bomfunk MCs",
-			song : "Rocking, Just To Make Ya Move (1999)"
+			song : "Rocking, Just To Make Ya Move",
+			year : 1999
 		},
 		{
 			pack : EN_1990_GR_PACK_3,
 			group : "Bomfunk MCs",
-			song : "Uprocking Beats"
+			song : "Uprocking Beats",
+			year : 1998
 		},
 		{
 			pack : EN_1990_GR_PACK_3,
 			group : "Bomfunk MCs",
-			song : "B-Boys & Flygirls"
+			song : "B-Boys & Flygirls",
+			year : 1999
 		},
 		{
 			pack : EN_1990_GR_PACK_7,
 			group : "Digital Underground",
-			song : "The Humpty Dance"
+			song : "The Humpty Dance",
+			year : 1990
 		},
 		{
 			pack : EN_1990_GR_PACK_7,
 			group : "Digital Underground",
-			song : "Kiss You Back"
+			song : "Kiss You Back",
+			year : 1991
 		},
 		{
 			pack : EN_1990_GR_PACK_7,
 			group : "Black Box",
-			song : "Everybody Everybody"
+			song : "Everybody Everybody",
+			year : 1990
 		},
 		{
 			pack : EN_1990_GR_PACK_7,
 			group : "Black Box",
-			song : "Strike It Up"
+			song : "Strike It Up",
+			year : 1990
 		},
 		{
 			pack : EN_1990_GR_PACK_7,
 			group : "New Radicals",
-			song : "You Get What You Give"
+			song : "You Get What You Give",
+			year : 1998
 		},
 		{
 			pack : EN_1990_GR_PACK_7,
 			group : "New Radicals",
-			song : "Someday We’ll Know"
+			song : "Someday We’ll Know",
+			year : 1999
 		},
 		{
 			pack : EN_1990_GR_PACK_8,
 			group : "Semisonic",
-			song : "Singing in My Sleep"
+			song : "Singing in My Sleep",
+			year : 1998
 		},
 		{
 			pack : EN_1990_GR_PACK_8,
 			group : "Semisonic",
-			song : "Secret Smile"
+			song : "Secret Smile",
+			year : 1998
 		},
 		{
 			pack : EN_1990_GR_PACK_7,
 			group : "Faithless",
-			song : "Insomnia"
+			song : "Insomnia",
+			year : 1995
 		},
 		{
 			pack : EN_1990_GR_PACK_7,
 			group : "Faithless",
-			song : "Salva Mea"
+			song : "Salva Mea",
+			year : 1995
 		},
 		{
 			pack : EN_1990_GR_PACK_7,
 			group : "Faithless",
-			song : "God Is a DJ"
+			song : "God Is a DJ",
+			year : 1998
 		},
 		{
 			pack : EN_1990_GR_PACK_9,
 			group : 'Salt-N-Pepa',
-			song : "Let's Talk About Sex"
+			song : "Let's Talk About Sex",
+			year : 1991
 		},
 		{
 			pack : EN_1990_GR_PACK_9,
 			group : 'Salt-N-Pepa',
-			song : "Shoop"
+			song : "Shoop",
+			year : 1993
 		},
 		{
 			pack : EN_1990_GR_PACK_9,
 			group : 'Salt-N-Pepa',
-			song : "Whatta Man"
+			song : "Whatta Man",
+			year : 1993
 		},
 		{
 			pack : EN_1990_GR_PACK_7,
 			group : 'Wu-Tang Clan',
-			song : "C.R.E.A.M. (Cash Rules Everything Around Me)"
+			song : "C.R.E.A.M. (Cash Rules Everything Around Me)",
+			year : 1994
 		},
 		{
 			pack : EN_1990_GR_PACK_7,
 			group : 'Wu-Tang Clan',
-			song : "Protect Ya Neck"
+			song : "Protect Ya Neck",
+			year : 1992
 		},
 		{
 			pack : EN_1990_GR_PACK_7,
 			group : 'Wu-Tang Clan',
-			song : "Aint Nuthing ta F' Wit"
+			song : "Aint Nuthing ta F' Wit",
+			year : 1993
 		},
 		{
 			pack : EN_1990_GR_PACK_8,
 			group : 'Nightcrawlers',
-			song : "Push the Feeling On"
+			song : "Push the Feeling On",
+			year : 1992
 		},
 		{
 			pack : EN_1990_GR_PACK_8,
 			group : 'Nightcrawlers',
-			song : "Surrender Your Love"
+			song : "Surrender Your Love",
+			year : 1995
 		},
 		{
 			pack : EN_1990_GR_PACK_7,
 			group : 'Naughty by Nature',
-			song : "O.O.P"
+			song : "O.O.P",
+			year : 1991
 		},
 		{
 			pack : EN_1990_GR_PACK_7,
 			group : 'Naughty by Nature',
-			song : "Hip Hop Hooray"
+			song : "Hip Hop Hooray",
+			year : 1993
 		},
 		{
 			pack : EN_1990_GR_PACK_9,
 			group : 'Deee-Lite',
-			song : "Groove Is in the Heart"
+			song : "Groove Is in the Heart",
+			year : 1990
 		},
 		{
 			pack : EN_1990_GR_PACK_8,
 			group : 'Stone Sour',
-			song : "Through Glass"
+			song : "Through Glass",
+			ignore : true
 		},
 		{
 			pack : EN_1990_GR_PACK_8,
 			group : 'Stone Sour',
-			song : "Bother"
+			song : "Bother",
+			ignore : true
 		},
 		{
 			pack : EN_1990_GR_PACK_7,
 			group : 'Daze',
-			song : "Together forever"
+			song : "Together forever",
+			year : 1997
 		},
 		{
 			pack : EN_1990_GR_PACK_4,
 			group : 'Duran Duran',
-			song : "Wild boys"
+			song : "Wild boys",
+			ignore : true
 		},
 		{
 			pack : EN_1990_GR_PACK_5,
 			group : 'Army of Lovers',
-			song : "Crucify"
+			song : "Crucify",
+			year : 1992
 		},
 		{
 			pack : EN_1990_GR_PACK_5,
 			group : 'Army of Lovers',
-			song : "Sexual Revolution"
+			song : "Sexual Revolution",
+			year : 1994
 		},
 		{
 			pack : EN_1990_GR_PACK_5,
 			group : 'Army of Lovers',
-			song : "Obsession"
+			song : "Obsession",
+			year : 1991
 		},
 		{
 			pack : EN_1990_GR_PACK_7,
 			group : 'East 17',
-			song : "It's Alright"
+			song : "It's Alright",
+			year : 1993
 		},
 		{
 			pack : EN_1990_GR_PACK_5,
 			group : 'Spice Girls',
-			song : "Two Become One"
+			song : "Two Become One",
+			year : 1996
 		},	
 		{
 			pack : EN_1990_GR_PACK_4,
 			group : 'Kind of Blue',
-			song : "Bitter Blue"
+			song : "Bitter Blue",
+			year : 1991
 		},	
 		{
 			pack : EN_1990_GR_PACK_7,
