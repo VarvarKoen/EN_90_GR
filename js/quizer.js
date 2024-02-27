@@ -1798,6 +1798,12 @@ let en_1990_gr = [
 			group : 'Misfits',
 			song : "Dig Up Her Bones",
 			year : 1997
+		},
+		{
+			pack : EN_1990_GR_PACK_7,
+			group : 'Onyx',
+			song : "Slam",
+			year : 1993
 		}
 ];
 
