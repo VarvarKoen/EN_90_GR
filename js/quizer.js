@@ -1804,6 +1804,21 @@ let en_1990_gr = [
 			group : 'Onyx',
 			song : "Slam",
 			year : 1993
+		},
+		{
+			pack : EN_1990_GR_PACK_8,
+			group : "Weezer",
+			song : "Buddy Holly (1994)"
+		},
+		{
+			pack : EN_1990_GR_PACK_8,
+			group : "Weezer",
+			song : "Say It Ain't So (1995)"
+		},
+		{
+			pack : EN_1990_GR_PACK_8,
+			group : "Weezer",
+			song : "Undone – The Sweater Song (1994)"
 		}
 ];
 
