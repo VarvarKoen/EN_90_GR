@@ -1879,6 +1879,21 @@ let en_1990_gr = [
 			pack : EN_1990_GR_PACK_6,
 			group : "Mr. President",
 			song : "I Give You My Heart (1996)"
+		},
+		{
+			pack : EN_1990_GR_PACK_6,
+			group : "Captain Hollywood Project",
+			song : "More and More (1992)"
+		},
+		{
+			pack : EN_1990_GR_PACK_6,
+			group : "Captain Hollywood Project",
+			song : "Only with You (1993)"
+		},
+		{
+			pack : EN_1990_GR_PACK_6,
+			group : "Captain Hollywood Project",
+			song : "Love and Pain (1996)"
 		}
 ];
 
