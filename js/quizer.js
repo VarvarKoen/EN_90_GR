@@ -1140,7 +1140,7 @@ let en_1990_gr = [
 			year : 1992
 		},
 		{
-			pack : EN_1990_GR_PACK_6,
+			pack : EN_1990_GR_PACK_7,
 			group : 'New Order',
 			song : "World In Motion",
 			year : 1990
@@ -1176,7 +1176,7 @@ let en_1990_gr = [
 			year : 1994
 		},
 		{
-			pack : EN_1990_GR_PACK_6,
+			pack : EN_1990_GR_PACK_3,
 			group : 'EMF',
 			song : "Unbelievable",
 			year : 1990
@@ -1248,7 +1248,7 @@ let en_1990_gr = [
 			year : 1993
 		},
 		{
-			pack : EN_1990_GR_PACK_6,
+			pack : EN_1990_GR_PACK_7,
 			group : 'New Order',
 			song : "Regret",
 			year : 1993
@@ -1819,6 +1819,21 @@ let en_1990_gr = [
 			pack : EN_1990_GR_PACK_8,
 			group : "Weezer",
 			song : "Undone – The Sweater Song (1994)"
+		},
+		{
+			pack : EN_1990_GR_PACK_8,
+			group : "Fun Factory",
+			song : "Close to You (1995)"
+		},
+		{
+			pack : EN_1990_GR_PACK_8,
+			group : "Fun Factory",
+			song : "Take Your Chance (1994)"
+		},
+		{
+			pack : EN_1990_GR_PACK_8,
+			group : "Fun Factory",
+			song : "Pain (1994)"
 		}
 ];
 
