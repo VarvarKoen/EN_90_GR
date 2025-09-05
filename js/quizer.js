@@ -1898,7 +1898,7 @@ let en_1990_gr = [
 		{
 			pack : EN_1990_GR_PACK_6,
 			group : "Cabballero",
-			song : "Love and Pain (1996)"
+			song : "Hymn (1994)"
 		}
 ];
 
