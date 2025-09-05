@@ -1864,6 +1864,21 @@ let en_1990_gr = [
 			pack : EN_1990_GR_PACK_6,
 			group : "2 Brothers on the 4th Floor",
 			song : "Can't Help Myself (1990)"
+		},
+		{
+			pack : EN_1990_GR_PACK_6,
+			group : "Mr. President",
+			song : "Up'n Away (1994)"
+		},
+		{
+			pack : EN_1990_GR_PACK_6,
+			group : "Mr. President",
+			song : "4 On the Floor (1995)"
+		},
+		{
+			pack : EN_1990_GR_PACK_6,
+			group : "Mr. President",
+			song : "I Give You My Heart (1996)"
 		}
 ];
 
