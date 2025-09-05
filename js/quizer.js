@@ -1849,6 +1849,21 @@ let en_1990_gr = [
 			pack : EN_1990_GR_PACK_8,
 			group : "C+C Music Factory",
 			song : "Here We Go (Let's Rock & Roll) (1991)"
+		},
+		{
+			pack : EN_1990_GR_PACK_8,
+			group : "2 Brothers on the 4th Floor",
+			song : "Come Take My Hand (1995)"
+		},
+		{
+			pack : EN_1990_GR_PACK_8,
+			group : "2 Brothers on the 4th Floor",
+			song : "Dreams (Will Come Alive) (1994)"
+		},
+		{
+			pack : EN_1990_GR_PACK_8,
+			group : "2 Brothers on the 4th Floor",
+			song : "Can't Help Myself (1990)"
 		}
 ];
 
