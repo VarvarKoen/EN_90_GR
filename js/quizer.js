@@ -1834,6 +1834,21 @@ let en_1990_gr = [
 			pack : EN_1990_GR_PACK_8,
 			group : "Fun Factory",
 			song : "Pain (1994)"
+		},
+		{
+			pack : EN_1990_GR_PACK_8,
+			group : "C+C Music Factory",
+			song : "Gonna Make You Sweat (Everybody Dance Now) (1990)"
+		},
+		{
+			pack : EN_1990_GR_PACK_8,
+			group : "C+C Music Factory",
+			song : "Things That Make You Go Hmmm... (1991)"
+		},
+		{
+			pack : EN_1990_GR_PACK_8,
+			group : "C+C Music Factory",
+			song : "Here We Go (Let's Rock & Roll) (1991)"
 		}
 ];
 
