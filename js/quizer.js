@@ -1575,13 +1575,15 @@ let en_1990_gr = [
 			pack : EN_1990_GR_PACK_8,
 			group : "Semisonic",
 			song : "Singing in My Sleep",
-			year : 1998
+			year : 1998,
+			ignore : true
 		},
 		{
 			pack : EN_1990_GR_PACK_8,
 			group : "Semisonic",
 			song : "Secret Smile",
-			year : 1998
+			year : 1998,
+			ignore : true
 		},
 		{
 			pack : EN_1990_GR_PACK_7,
@@ -1899,6 +1901,11 @@ let en_1990_gr = [
 			pack : EN_1990_GR_PACK_6,
 			group : "Cabballero",
 			song : "Hymn (1994)"
+		},
+		{
+			pack : EN_1990_GR_PACK_8,
+			group : "Semisonic",
+			song : "Closing Time (1998)"
 		}
 ];
 
