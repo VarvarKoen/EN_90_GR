@@ -1130,8 +1130,7 @@ let en_1990_gr = [
 		{
 			pack : EN_1990_GR_PACK_6,
 			group : 'Urban Cookie Collective',
-			song : "High On A Happy Vibe",
-			year : 1994
+			song : "High On A Happy Vibe (1994)"
 		},
 		{
 			pack : EN_1990_GR_PACK_6,
@@ -1906,6 +1905,16 @@ let en_1990_gr = [
 			pack : EN_1990_GR_PACK_8,
 			group : "Semisonic",
 			song : "Closing Time (1998)"
+		},
+		{
+			pack : EN_1990_GR_PACK_6,
+			group : 'Urban Cookie Collective',
+			song : "The Key the Secret (1993)"
+		},
+		{
+			pack : EN_1990_GR_PACK_6,
+			group : 'Urban Cookie Collective',
+			song : "Feels Like Heaven (1993)"
 		}
 ];
 
