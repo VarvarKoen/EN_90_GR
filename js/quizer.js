@@ -360,9 +360,9 @@ const EN_1990_GR_PACK_3 = 4;
 const EN_1990_GR_PACK_4 = 5;
 const EN_1990_GR_PACK_5 = 7;
 const EN_1990_GR_PACK_6 = 9;
-const EN_1990_GR_PACK_3 = 6;
+const EN_1990_GR_PACK_7 = 6;
 const EN_1990_GR_PACK_8 = 3;
-const EN_1990_GR_PACK_5 = 8;
+const EN_1990_GR_PACK_9 = 8;
 
 let en_1990_gr = [
 		{
