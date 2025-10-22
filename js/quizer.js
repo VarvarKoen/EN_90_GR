@@ -345,12 +345,9 @@ function load(){
 const en_1990_gr_icon = [
 	'rock_medium',
 	'rock_hard',
-	'rock_very_hard',
 	'pop_medium',
 	'pop_hard',
-	'pop_very_hard',
 	'womens_vocals',
-	'womens_vocals_2',
 	'eurodance'
 ];
 
@@ -1608,14 +1605,14 @@ let en_1990_gr = [
 			year : 1999
 		},
 		{
-			pack : EN_1990_GR_PACK_8,
+			pack : EN_1990_GR_PACK_1,
 			group : "Semisonic",
 			song : "Singing in My Sleep",
 			year : 1998,
 			ignore : true
 		},
 		{
-			pack : EN_1990_GR_PACK_8,
+			pack : EN_1990_GR_PACK_1,
 			group : "Semisonic",
 			song : "Secret Smile",
 			year : 1998,
@@ -1706,13 +1703,13 @@ let en_1990_gr = [
 			year : 1990
 		},
 		{
-			pack : EN_1990_GR_PACK_8,
+			pack : EN_1990_GR_PACK_1,
 			group : 'Stone Sour',
 			song : "Through Glass",
 			ignore : true
 		},
 		{
-			pack : EN_1990_GR_PACK_8,
+			pack : EN_1990_GR_PACK_1,
 			group : 'Stone Sour',
 			song : "Bother",
 			ignore : true
@@ -1958,12 +1955,9 @@ let en_1990_gr = [
 
 let en_1990_gr_1 =	en_1990_gr.filter(item => item.pack == 1);
 let en_1990_gr_2 =	en_1990_gr.filter(item => item.pack == 2);
-let en_1990_gr_3 =	en_1990_gr.filter(item => item.pack == 3);
 let en_1990_gr_4 =	en_1990_gr.filter(item => item.pack == 4);
 let en_1990_gr_5 =	en_1990_gr.filter(item => item.pack == 5);
-let en_1990_gr_6 =	en_1990_gr.filter(item => item.pack == 6);
 let en_1990_gr_7 =	en_1990_gr.filter(item => item.pack == 7);
-let en_1990_gr_8 =	en_1990_gr.filter(item => item.pack == 8);
 let en_1990_gr_9 =	en_1990_gr.filter(item => item.pack == 9);
 
 
@@ -1983,10 +1977,6 @@ let music = [
 					name: 'EN 1990s Groups: Rock Hard'
 				},
 				{
-					arr: en_1990_gr_3,
-					name: 'EN 1990s Groups: Rock Very Hard'
-				},
-				{
 					arr: en_1990_gr_4,
 					name: 'EN 1990s Groups: Pop Medium'
 				},
@@ -1995,16 +1985,8 @@ let music = [
 					name: 'EN 1990s Groups: Pop Hard'
 				},
 				{
-					arr: en_1990_gr_6,
-					name: "EN 1990s Groups: Pop Very Hard"
-				},
-				{
 					arr: en_1990_gr_7,
 					name: "EN 1990s Groups: Women's Vocals"
-				},
-				{
-					arr: en_1990_gr_8,
-					name: "EN 1990s Groups: Women's Vocals 2"
 				},
 				{
 					arr: en_1990_gr_9,
