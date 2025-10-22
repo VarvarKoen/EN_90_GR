@@ -613,7 +613,8 @@ let en_1990_gr = [
 			pack : EN_1990_GR_PACK_5,
 			group : 'Chumbawamba',
 			song : "Tubthumping",
-			year : 1997
+			year : 1997,
+			ignore : true
 		},	
 		{
 			pack : EN_1990_GR_PACK_2,
@@ -717,14 +718,12 @@ let en_1990_gr = [
 		{
 			pack : EN_1990_GR_PACK_1,
 			group : 'Foo Fighters',
-			song : "Monkey Wrench (1997)",
-			year : 1997
+			song : "Monkey Wrench (1997)"
 		},
 		{
 			pack : EN_1990_GR_PACK_1,
 			group : 'Foo Fighters',
-			song : "Everlong (1997)",
-			year : 1997
+			song : "Everlong (1997)"
 		},
 		{
 			pack : EN_1990_GR_PACK_3,
@@ -978,13 +977,15 @@ let en_1990_gr = [
 			pack : EN_1990_GR_PACK_5,
 			group : 'Spice Girls',
 			song : "Too Much",
-			year : 1997
+			year : 1997,
+			ignore : true
 		},
 		{
 			pack : EN_1990_GR_PACK_5,
 			group : 'Spice Girls',
 			song : "Say You'll Be There",
-			year : 1996
+			year : 1996,
+			ignore : true
 		},
 		{
 			pack : EN_1990_GR_PACK_3,
@@ -996,19 +997,22 @@ let en_1990_gr = [
 			pack : EN_1990_GR_PACK_5,
 			group : 'Cardigans',
 			song : "Do You Believe",
-			year : 1996
+			year : 1996,
+			ignore : true
 		},
 		{
 			pack : EN_1990_GR_PACK_5,
 			group : 'Cardigans',
 			song : "Erase / Rewind",
-			year : 1999
+			year : 1999,
+			ignore : true
 		},
 		{
 			pack : EN_1990_GR_PACK_5,
 			group : 'Cardigans',
 			song : "Lovefool",
-			year : 1996
+			year : 1996,
+			ignore : true
 		},
 		{
 			pack : EN_1990_GR_PACK_3,
@@ -1026,13 +1030,15 @@ let en_1990_gr = [
 			pack : EN_1990_GR_PACK_5,
 			group : 'No Doubt',
 			song : "Just A Girl",
-			year : 1995
+			year : 1995,
+			ignore : true
 		},
 		{
 			pack : EN_1990_GR_PACK_5,
 			group : 'No Doubt',
 			song : "Don't Speak",
-			year : 1996
+			year : 1996,
+			ignore : true
 		},
 		{
 			pack : EN_1990_GR_PACK_3,
@@ -1116,13 +1122,15 @@ let en_1990_gr = [
 			pack : EN_1990_GR_PACK_6,
 			group : 'Eiffel 65',
 			song : "Blue (Da Ba Dee)",
-			year : 1998
+			year : 1998,
+			ignore : true
 		},
 		{
 			pack : EN_1990_GR_PACK_6,
 			group : 'Eiffel 65',
 			song : "Move Your Body",
-			year : 1999
+			year : 1999,
+			ignore : true
 		},
 		{
 			pack : EN_1990_GR_PACK_6,
@@ -1187,7 +1195,8 @@ let en_1990_gr = [
 			pack : EN_1990_GR_PACK_6,
 			group : 'Antique',
 			song : "Opa Opa",
-			year : 1998
+			year : 1998,
+			ignore : true
 		},
 		{
 			pack : EN_1990_GR_PACK_6,
@@ -1283,7 +1292,8 @@ let en_1990_gr = [
 			pack : EN_1990_GR_PACK_6,
 			group : 'Eiffel 65',
 			song : "Too Much Of Heaven",
-			year : 2000
+			year : 2000,
+			ignore : true
 		},	
 		{
 			pack : EN_1990_GR_PACK_6,
@@ -1336,8 +1346,7 @@ let en_1990_gr = [
 		{
 			pack : EN_1990_GR_PACK_1,
 			group : 'Foo Fighters',
-			song : "My Hero",
-			year : 1998
+			song : "My Hero (1998)"
 		},	
 		{
 			pack : EN_1990_GR_PACK_4,
@@ -1730,19 +1739,22 @@ let en_1990_gr = [
 			pack : EN_1990_GR_PACK_5,
 			group : 'Army of Lovers',
 			song : "Crucify",
-			year : 1992
+			year : 1992,
+			ignore : true
 		},
 		{
 			pack : EN_1990_GR_PACK_5,
 			group : 'Army of Lovers',
 			song : "Sexual Revolution",
-			year : 1994
+			year : 1994,
+			ignore : true
 		},
 		{
 			pack : EN_1990_GR_PACK_5,
 			group : 'Army of Lovers',
 			song : "Obsession",
-			year : 1991
+			year : 1991,
+			ignore : true
 		},
 		{
 			pack : EN_1990_GR_PACK_3,
@@ -1754,7 +1766,8 @@ let en_1990_gr = [
 			pack : EN_1990_GR_PACK_5,
 			group : 'Spice Girls',
 			song : "Two Become One",
-			year : 1996
+			year : 1996,
+			ignore : true
 		},	
 		{
 			pack : EN_1990_GR_PACK_4,
@@ -1879,12 +1892,14 @@ let en_1990_gr = [
 		{
 			pack : EN_1990_GR_PACK_6,
 			group : "C+C Music Factory",
-			song : "Things That Make You Go Hmmm... (1991)"
+			song : "Things That Make You Go Hmmm... (1991)",
+			ignore : true
 		},
 		{
 			pack : EN_1990_GR_PACK_6,
 			group : "C+C Music Factory",
-			song : "Here We Go (Let's Rock & Roll) (1991)"
+			song : "Here We Go (Let's Rock & Roll) (1991)",
+			ignore : true
 		},
 		{
 			pack : EN_1990_GR_PACK_6,
