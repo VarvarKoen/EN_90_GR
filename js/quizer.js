@@ -360,46 +360,52 @@ const EN_1990_GR_PACK_3 = 4;
 const EN_1990_GR_PACK_4 = 5;
 const EN_1990_GR_PACK_5 = 7;
 const EN_1990_GR_PACK_6 = 9;
-const EN_1990_GR_PACK_7 = 6;
+const EN_1990_GR_PACK_3 = 6;
 const EN_1990_GR_PACK_8 = 3;
-const EN_1990_GR_PACK_9 = 8;
+const EN_1990_GR_PACK_5 = 8;
 
 let en_1990_gr = [
 		{
 			pack : EN_1990_GR_PACK_1,
 			group : 'Green Day',
 			song : "Basket Case",
-			year : 1994
+			year : 1994,
+			ignore : true
 		},
 		{
 			pack : EN_1990_GR_PACK_1,
 			group : 'Green Day',
 			song : "When I Come Around",
-			year : 1995
+			year : 1995,
+			ignore : true
 		},
 		{
 			pack : EN_1990_GR_PACK_1,
 			group : 'Green Day',
 			song : "Minority",
-			year : 2000
+			year : 2000,
+			ignore : true
 		},
 		{
 			pack : EN_1990_GR_PACK_1,
 			group : 'Offspring',
 			song : "Why Don't You Get A Job",
-			year : 1998
+			year : 1998,
+			ignore : true
 		},
 		{
 			pack : EN_1990_GR_PACK_1,
 			group : 'Offspring',
 			song : "The Kids Aren't Alright",
-			year : 1999
+			year : 1999,
+			ignore : true
 		},
 		{
 			pack : EN_1990_GR_PACK_1,
 			group : 'Offspring',
 			song : "Self Esteem",
-			year : 1994
+			year : 1994,
+			ignore : true
 		},
 		{
 			pack : EN_1990_GR_PACK_1,
@@ -423,64 +429,73 @@ let en_1990_gr = [
 			pack : EN_1990_GR_PACK_1,
 			group : 'ACDC',
 			song : "Moneytalks",
-			year : 1990
+			year : 1990,
+			ignore : true
 		},
 		{
 			pack : EN_1990_GR_PACK_1,
 			group : 'ACDC',
 			song : "Big Gun",
-			year : 1993
+			year : 1993,
+			ignore : true
 		},
 		{
 			pack : EN_1990_GR_PACK_1,
 			group : 'ACDC',
 			song : "Hard as a Rock",
-			year : 1995
+			year : 1995,
+			ignore : true
 		},
 		{
 			pack : EN_1990_GR_PACK_1,
 			group : 'Red Hot Chili Peppers',
 			song : "Give It Away",
-			year : 1991
+			year : 1991,
+			ignore : true
 		},
 		{
 			pack : EN_1990_GR_PACK_1,
 			group : 'Red Hot Chili Peppers',
 			song : "Under The Bridge",
-			year : 1992
+			year : 1992,
+			ignore : true
 		},
 		{
 			pack : EN_1990_GR_PACK_1,
 			group : 'Red Hot Chili Peppers',
 			song : "Otherside",
-			year : 1999
+			year : 1999,
+			ignore : true
 		},
 		{
 			pack : EN_1990_GR_PACK_1,
 			group : 'Aerosmith',
 			song : "Eat The Rich",
-			year : 1993
+			year : 1993,
+			ignore : true
 		},
 		{
 			pack : EN_1990_GR_PACK_1,
 			group : 'Aerosmith',
 			song : "Cryin'",
-			year : 1993
+			year : 1993,
+			ignore : true
 		},
 		{
 			pack : EN_1990_GR_PACK_1,
 			group : 'Aerosmith',
 			song : "Crazy",
-			year : 1994
+			year : 1994,
+			ignore : true
 		},
 		{
-			pack : EN_1990_GR_PACK_2,
+			pack : EN_1990_GR_PACK_1,
 			group : 'REM',
 			song : "Loosing My Religion",
 			year : 1991
 		},
 		{
-			pack : EN_1990_GR_PACK_2,
+			pack : EN_1990_GR_PACK_1,
 			group : 'REM',
 			song : "Shiny Happy People",
 			year : 1991
@@ -489,43 +504,50 @@ let en_1990_gr = [
 			pack : EN_1990_GR_PACK_2,
 			group : 'Oasis',
 			song : "Wonderwall",
-			year : 1995
+			year : 1995,
+			ignore : true
 		},
 		{
 			pack : EN_1990_GR_PACK_2,
 			group : 'Oasis',
 			song : "Champagne Supernova",
-			year : 1996
+			year : 1996,
+			ignore : true
 		},
 		{
 			pack : EN_1990_GR_PACK_2,
 			group : 'Oasis',
 			song : "Live Forever",
-			year : 1994
+			year : 1994,
+			ignore : true
 		},
 		{
 			pack : EN_1990_GR_PACK_2,
 			group : 'Bon Jovi',
 			song : "Blaze Of Glory",
-			year : 1990
+			year : 1990,
+			ignore : true
 		},
 		{
 			pack : EN_1990_GR_PACK_2,
 			group : 'Bon Jovi',
 			song : "Always",
-			year : 1994
+			year : 1994,
+			ignore : true
 		},
 		{
 			pack : EN_1990_GR_PACK_2,
 			group : 'Bon Jovi',
 			song : "Bed Of Roses",
-			year : 1993
+			year : 1993,
+			ignore : true
 		},
 		{
 			pack : EN_1990_GR_PACK_2,
 			group : 'U2',
 			song : "One",
-			year : 1991
+			year : 1991,
+			ignore : true
 		},
 		{
 			pack : EN_1990_GR_PACK_5,
@@ -549,13 +571,15 @@ let en_1990_gr = [
 			pack : EN_1990_GR_PACK_2,
 			group : 'U2',
 			song : "The Fly",
-			year : 1991
+			year : 1991,
+			ignore : true
 		},
 		{
 			pack : EN_1990_GR_PACK_2,
 			group : 'U2',
 			song : "Discotheque",
-			year : 1997
+			year : 1997,
+			ignore : true
 		},
 		{
 			pack : EN_1990_GR_PACK_1,
@@ -576,7 +600,7 @@ let en_1990_gr = [
 			year : 2000
 		},
 		{
-			pack : EN_1990_GR_PACK_2,
+			pack : EN_1990_GR_PACK_1,
 			group : 'REM',
 			song : "Man On The Moon",
 			year : 1992
@@ -585,7 +609,8 @@ let en_1990_gr = [
 			pack : EN_1990_GR_PACK_2,
 			group : 'Queen',
 			song : "Made In Heaven",
-			year : 1995
+			year : 1995,
+			ignore : true
 		},
 		{
 			pack : EN_1990_GR_PACK_5,
@@ -594,25 +619,25 @@ let en_1990_gr = [
 			year : 1997
 		},	
 		{
-			pack : EN_1990_GR_PACK_8,
+			pack : EN_1990_GR_PACK_2,
 			group : 'Soundgarden',
 			song : "Black Hole Sun",
 			year : 1994
 		},
 		{
-			pack : EN_1990_GR_PACK_2,
+			pack : EN_1990_GR_PACK_1,
 			group : 'Goo Goo Dolls',
 			song : "Iris",
 			year : 1998
 		},
 		{
-			pack : EN_1990_GR_PACK_2,
+			pack : EN_1990_GR_PACK_1,
 			group : 'Goo Goo Dolls',
 			song : "Slide",
 			year : 1998
 		},	
 		{
-			pack : EN_1990_GR_PACK_8,
+			pack : EN_1990_GR_PACK_2,
 			group : 'Soundgarden',
 			song : "Spoonman",
 			year : 1994
@@ -627,82 +652,85 @@ let en_1990_gr = [
 			pack : EN_1990_GR_PACK_2,
 			group : 'ZZ Top',
 			song : "My Head's In Mississippi",
-			year : 1990
+			year : 1990,
+			ignore : true
 		},
 		{
 			pack : EN_1990_GR_PACK_2,
 			group : 'ZZ Top',
 			song : "Give It Up",
-			year : 1991
+			year : 1991,
+			ignore : true
 		},
 		{
 			pack : EN_1990_GR_PACK_2,
 			group : 'ZZ Top',
 			song : "Pincushion",
-			year : 1994
+			year : 1994,
+			ignore : true
 		},
 		{
-			pack : EN_1990_GR_PACK_9,
+			pack : EN_1990_GR_PACK_5,
 			group : 'Massive Attack',
 			song : "Unfinished Sympathy",
 			year : 1991
 		},
 		{
-			pack : EN_1990_GR_PACK_9,
+			pack : EN_1990_GR_PACK_5,
 			group : 'Massive Attack',
 			song : "Teardrop",
 			year : 1998
 		},
 		{
-			pack : EN_1990_GR_PACK_2,
+			pack : EN_1990_GR_PACK_3,
 			group : 'Cypress Hill',
 			song : "Insane In The Brain",
 			year : 1993
 		},
 		{
-			pack : EN_1990_GR_PACK_2,
+			pack : EN_1990_GR_PACK_3,
 			group : 'Cypress Hill',
 			song : "Hits from the Bong",
 			year : 1993
 		},
 		{
-			pack : EN_1990_GR_PACK_2,
+			pack : EN_1990_GR_PACK_3,
 			group : 'Cypress Hill',
 			song : "Tequila Sunrise",
 			year : 1998
 		},
 		{
-			pack : EN_1990_GR_PACK_7,
+			pack : EN_1990_GR_PACK_3,
 			group : 'INXS',
 			song : "Suicide Blonde",
 			year : 1990
 		},
 		{
-			pack : EN_1990_GR_PACK_7,
+			pack : EN_1990_GR_PACK_3,
 			group : 'INXS',
 			song : "Shining Star",
 			year : 1991
 		},
 		{
-			pack : EN_1990_GR_PACK_7,
+			pack : EN_1990_GR_PACK_3,
 			group : 'INXS',
 			song : "Taste It",
 			year : 1992
 		},
 		{
-			pack : EN_1990_GR_PACK_2,
+			pack : EN_1990_GR_PACK_1,
 			group : 'Foo Fighters',
 			song : "Monkey Wrench (1997)",
 			year : 1997
 		},
 		{
-			pack : EN_1990_GR_PACK_2,
+			pack : EN_1990_GR_PACK_1,
 			group : 'Foo Fighters',
 			song : "Everlong (1997)",
 			year : 1997
 		},
 		{
-			pack : EN_1990_GR_PACK_7,
+			pack : EN_1990_GR_PACK_3,
 			group : 'Jamiroquai',
 			song : "Virtual Insanity",
 			year : 1996
@@ -933,13 +961,15 @@ let en_1990_gr = [
 			pack : EN_1990_GR_PACK_3,
 			group : 'Depeche Mode',
 			song : "Policy Of Truth",
-			year : 1990
+			year : 1990,
+			ignore : true
 		},
 		{
 			pack : EN_1990_GR_PACK_3,
 			group : 'Depeche Mode',
 			song : "World In My Eyes",
-			year : 1990
+			year : 1990,
+			ignore : true
 		},
 		{
 			pack : EN_1990_GR_PACK_3,
@@ -960,7 +990,7 @@ let en_1990_gr = [
 			year : 1996
 		},
 		{
-			pack : EN_1990_GR_PACK_7,
+			pack : EN_1990_GR_PACK_3,
 			group : 'Verve',
 			song : "Bitter Sweet Symphony",
 			year : 1997
@@ -1044,13 +1074,13 @@ let en_1990_gr = [
 			year : 1998
 		},
 		{
-			pack : EN_1990_GR_PACK_7,
+			pack : EN_1990_GR_PACK_3,
 			group : 'Verve',
 			song : "Lucky Man",
 			year : 1997
 		},
 		{
-			pack : EN_1990_GR_PACK_7,
+			pack : EN_1990_GR_PACK_3,
 			group : 'Verve',
 			song : "Sonnet",
 			year : 1998
@@ -1139,7 +1169,7 @@ let en_1990_gr = [
 			year : 1992
 		},
 		{
-			pack : EN_1990_GR_PACK_7,
+			pack : EN_1990_GR_PACK_3,
 			group : 'New Order',
 			song : "World In Motion",
 			year : 1990
@@ -1247,7 +1277,7 @@ let en_1990_gr = [
 			year : 1993
 		},
 		{
-			pack : EN_1990_GR_PACK_7,
+			pack : EN_1990_GR_PACK_3,
 			group : 'New Order',
 			song : "Regret",
 			year : 1993
@@ -1307,7 +1337,7 @@ let en_1990_gr = [
 			year : 1997
 		},	
 		{
-			pack : EN_1990_GR_PACK_2,
+			pack : EN_1990_GR_PACK_1,
 			group : 'Foo Fighters',
 			song : "My Hero",
 			year : 1998
@@ -1367,37 +1397,37 @@ let en_1990_gr = [
 			year : 1993
 		},
 		{
-			pack : EN_1990_GR_PACK_9,
+			pack : EN_1990_GR_PACK_5,
 			group : 'Portishead',
 			song : "Sour Times",
 			year : 1994
 		},
 		{
-			pack : EN_1990_GR_PACK_9,
+			pack : EN_1990_GR_PACK_5,
 			group : 'Portishead',
 			song : "Glory Box",
 			year : 1994
 		},
 		{
-			pack : EN_1990_GR_PACK_9,
+			pack : EN_1990_GR_PACK_5,
 			group : 'L7',
 			song : "Drama",
 			year : 1992
 		},
 		{
-			pack : EN_1990_GR_PACK_9,
+			pack : EN_1990_GR_PACK_5,
 			group : 'L7',
 			song : "Off the Wagon",
 			year : 1998
 		},
 		{
-			pack : EN_1990_GR_PACK_9,
+			pack : EN_1990_GR_PACK_5,
 			group : 'Guano Apes',
 			song : "Open Your Eyes",
 			year : 1997
 		},
 		{
-			pack : EN_1990_GR_PACK_9,
+			pack : EN_1990_GR_PACK_5,
 			group : 'Guano Apes',
 			song : "Lords Of The Boards",
 			year : 1999
@@ -1424,7 +1454,8 @@ let en_1990_gr = [
 			pack : EN_1990_GR_PACK_3,
 			group : 'Savage Garden',
 			song : "Chained to You",
-			year : 2000
+			year : 2000,
+			ignore : true
 		},
 		{
 			pack : EN_1990_GR_PACK_3,
@@ -1439,19 +1470,19 @@ let en_1990_gr = [
 			year : 1994
 		},
 		{
-			pack : EN_1990_GR_PACK_7,
+			pack : EN_1990_GR_PACK_3,
 			group : 'Pulp',
 			song : "Common People",
 			year : 1995
 		},
 		{
-			pack : EN_1990_GR_PACK_7,
+			pack : EN_1990_GR_PACK_3,
 			group : 'Pulp',
 			song : "Disco 2000",
 			year : 1995
 		},
 		{
-			pack : EN_1990_GR_PACK_7,
+			pack : EN_1990_GR_PACK_3,
 			group : 'Pulp',
 			song : "Mis-Shapes",
 			year : 1995
@@ -1463,13 +1494,13 @@ let en_1990_gr = [
 			year : 1990
 		},
 		{
-			pack : EN_1990_GR_PACK_7,
+			pack : EN_1990_GR_PACK_3,
 			group : 'East 17',
 			song : "Stay Another Day",
 			year : 1994
 		},
 		{
-			pack : EN_1990_GR_PACK_7,
+			pack : EN_1990_GR_PACK_3,
 			group : 'East 17',
 			song : "Hey Child",
 			year : 1996
@@ -1478,40 +1509,43 @@ let en_1990_gr = [
 			pack : EN_1990_GR_PACK_3,
 			group : 'Backstreet Boys',
 			song : "We've Got It Goin' On",
-			year : 1995
+			year : 1995,
+			ignore : true
 		},
 		{
 			pack : EN_1990_GR_PACK_3,
 			group : 'Backstreet Boys',
 			song : "I'll never break your heart",
-			year : 1995
+			year : 1995,
+			ignore : true
 		},
 		{
 			pack : EN_1990_GR_PACK_3,
 			group : 'Backstreet Boys',
 			song : "Larger than life",
-			year : 1998
+			year : 1998,
+			ignore : true
 		},
 		{
-			pack : EN_1990_GR_PACK_8,
+			pack : EN_1990_GR_PACK_2,
 			group : 'Pearl Jam',
 			song : "Alive",
 			year : 1991
 		},
 		{
-			pack : EN_1990_GR_PACK_8,
+			pack : EN_1990_GR_PACK_2,
 			group : 'Pearl Jam',
 			song : "Jeremy",
 			year : 1992
 		},
 		{
-			pack : EN_1990_GR_PACK_8,
+			pack : EN_1990_GR_PACK_2,
 			group : 'Alice In Chains',
 			song : "Would?",
 			year : 1992
 		},
 		{
-			pack : EN_1990_GR_PACK_8,
+			pack : EN_1990_GR_PACK_2,
 			group : 'Alice In Chains',
 			song : "Man in the Box",
 			year : 1990
@@ -1520,52 +1554,55 @@ let en_1990_gr = [
 			pack : EN_1990_GR_PACK_3,
 			group : "Bomfunk MCs",
 			song : "Rocking, Just To Make Ya Move",
-			year : 1999
+			year : 1999,
+			ignore : true
 		},
 		{
 			pack : EN_1990_GR_PACK_3,
 			group : "Bomfunk MCs",
 			song : "Uprocking Beats",
-			year : 1998
+			year : 1998,
+			ignore : true
 		},
 		{
 			pack : EN_1990_GR_PACK_3,
 			group : "Bomfunk MCs",
 			song : "B-Boys & Flygirls",
-			year : 1999
+			year : 1999,
+			ignore : true
 		},
 		{
-			pack : EN_1990_GR_PACK_7,
+			pack : EN_1990_GR_PACK_3,
 			group : "Digital Underground",
 			song : "The Humpty Dance",
 			year : 1990
 		},
 		{
-			pack : EN_1990_GR_PACK_7,
+			pack : EN_1990_GR_PACK_3,
 			group : "Digital Underground",
 			song : "Kiss You Back",
 			year : 1991
 		},
 		{
-			pack : EN_1990_GR_PACK_7,
+			pack : EN_1990_GR_PACK_3,
 			group : "Black Box",
 			song : "Everybody Everybody",
 			year : 1990
 		},
 		{
-			pack : EN_1990_GR_PACK_7,
+			pack : EN_1990_GR_PACK_3,
 			group : "Black Box",
 			song : "Strike It Up",
 			year : 1990
 		},
 		{
-			pack : EN_1990_GR_PACK_7,
+			pack : EN_1990_GR_PACK_3,
 			group : "New Radicals",
 			song : "You Get What You Give",
 			year : 1998
 		},
 		{
-			pack : EN_1990_GR_PACK_7,
+			pack : EN_1990_GR_PACK_3,
 			group : "New Radicals",
 			song : "Someday We’ll Know",
 			year : 1999
@@ -1585,85 +1622,85 @@ let en_1990_gr = [
 			ignore : true
 		},
 		{
-			pack : EN_1990_GR_PACK_7,
+			pack : EN_1990_GR_PACK_3,
 			group : "Faithless",
 			song : "Insomnia",
 			year : 1995
 		},
 		{
-			pack : EN_1990_GR_PACK_7,
+			pack : EN_1990_GR_PACK_3,
 			group : "Faithless",
 			song : "Salva Mea",
 			year : 1995
 		},
 		{
-			pack : EN_1990_GR_PACK_7,
+			pack : EN_1990_GR_PACK_3,
 			group : "Faithless",
 			song : "God Is a DJ",
 			year : 1998
 		},
 		{
-			pack : EN_1990_GR_PACK_9,
+			pack : EN_1990_GR_PACK_5,
 			group : 'Salt-N-Pepa',
 			song : "Let's Talk About Sex",
 			year : 1991
 		},
 		{
-			pack : EN_1990_GR_PACK_9,
+			pack : EN_1990_GR_PACK_5,
 			group : 'Salt-N-Pepa',
 			song : "Shoop",
 			year : 1993
 		},
 		{
-			pack : EN_1990_GR_PACK_9,
+			pack : EN_1990_GR_PACK_5,
 			group : 'Salt-N-Pepa',
 			song : "Whatta Man",
 			year : 1993
 		},
 		{
-			pack : EN_1990_GR_PACK_7,
+			pack : EN_1990_GR_PACK_3,
 			group : 'Wu-Tang Clan',
 			song : "C.R.E.A.M. (Cash Rules Everything Around Me)",
 			year : 1994
 		},
 		{
-			pack : EN_1990_GR_PACK_7,
+			pack : EN_1990_GR_PACK_3,
 			group : 'Wu-Tang Clan',
 			song : "Protect Ya Neck",
 			year : 1992
 		},
 		{
-			pack : EN_1990_GR_PACK_7,
+			pack : EN_1990_GR_PACK_3,
 			group : 'Wu-Tang Clan',
 			song : "Aint Nuthing ta F' Wit",
 			year : 1993
 		},
 		{
-			pack : EN_1990_GR_PACK_8,
+			pack : EN_1990_GR_PACK_3,
 			group : 'Nightcrawlers',
 			song : "Push the Feeling On",
 			year : 1992
 		},
 		{
-			pack : EN_1990_GR_PACK_8,
+			pack : EN_1990_GR_PACK_3,
 			group : 'Nightcrawlers',
 			song : "Surrender Your Love",
 			year : 1995
 		},
 		{
-			pack : EN_1990_GR_PACK_7,
+			pack : EN_1990_GR_PACK_3,
 			group : 'Naughty by Nature',
 			song : "O.O.P",
 			year : 1991
 		},
 		{
-			pack : EN_1990_GR_PACK_7,
+			pack : EN_1990_GR_PACK_3,
 			group : 'Naughty by Nature',
 			song : "Hip Hop Hooray",
 			year : 1993
 		},
 		{
-			pack : EN_1990_GR_PACK_9,
+			pack : EN_1990_GR_PACK_5,
 			group : 'Deee-Lite',
 			song : "Groove Is in the Heart",
 			year : 1990
@@ -1681,7 +1718,7 @@ let en_1990_gr = [
 			ignore : true
 		},
 		{
-			pack : EN_1990_GR_PACK_7,
+			pack : EN_1990_GR_PACK_3,
 			group : 'Daze',
 			song : "Together forever",
 			year : 1997
@@ -1711,7 +1748,7 @@ let en_1990_gr = [
 			year : 1991
 		},
 		{
-			pack : EN_1990_GR_PACK_7,
+			pack : EN_1990_GR_PACK_3,
 			group : 'East 17',
 			song : "It's Alright",
 			year : 1993
@@ -1729,7 +1766,7 @@ let en_1990_gr = [
 			year : 1991
 		},	
 		{
-			pack : EN_1990_GR_PACK_7,
+			pack : EN_1990_GR_PACK_3,
 			group : 'Chemical Brothers',
 			song : "Hey Boy Hey Girl",
 			year : 1999
@@ -1792,32 +1829,33 @@ let en_1990_gr = [
 			pack : EN_1990_GR_PACK_3,
 			group : 'Depeche Mode',
 			song : "It's No Good",
-			year : 1997
+			year : 1997,
+			ignore : true
 		},
 		{
-			pack : EN_1990_GR_PACK_8,
+			pack : EN_1990_GR_PACK_2,
 			group : 'Misfits',
 			song : "Dig Up Her Bones",
 			year : 1997
 		},
 		{
-			pack : EN_1990_GR_PACK_7,
+			pack : EN_1990_GR_PACK_3,
 			group : 'Onyx',
 			song : "Slam",
 			year : 1993
 		},
 		{
-			pack : EN_1990_GR_PACK_8,
+			pack : EN_1990_GR_PACK_2,
 			group : "Weezer",
 			song : "Buddy Holly (1994)"
 		},
 		{
-			pack : EN_1990_GR_PACK_8,
+			pack : EN_1990_GR_PACK_2,
 			group : "Weezer",
 			song : "Say It Ain't So (1995)"
 		},
 		{
-			pack : EN_1990_GR_PACK_8,
+			pack : EN_1990_GR_PACK_2,
 			group : "Weezer",
 			song : "Undone – The Sweater Song (1994)"
 		},
@@ -1902,7 +1940,7 @@ let en_1990_gr = [
 			song : "Hymn (1994)"
 		},
 		{
-			pack : EN_1990_GR_PACK_8,
+			pack : EN_1990_GR_PACK_2,
 			group : "Semisonic",
 			song : "Closing Time (1998)"
 		},
