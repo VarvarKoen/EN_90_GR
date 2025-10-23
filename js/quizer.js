@@ -498,49 +498,49 @@ let en_1990_gr = [
 			year : 1991
 		},
 		{
-			pack : EN_1990_GR_PACK_2,
+			pack : EN_1990_GR_PACK_1,
 			group : 'Oasis',
 			song : "Wonderwall",
 			year : 1995,
 			ignore : true
 		},
 		{
-			pack : EN_1990_GR_PACK_2,
+			pack : EN_1990_GR_PACK_1,
 			group : 'Oasis',
 			song : "Champagne Supernova",
 			year : 1996,
 			ignore : true
 		},
 		{
-			pack : EN_1990_GR_PACK_2,
+			pack : EN_1990_GR_PACK_1,
 			group : 'Oasis',
 			song : "Live Forever",
 			year : 1994,
 			ignore : true
 		},
 		{
-			pack : EN_1990_GR_PACK_2,
+			pack : EN_1990_GR_PACK_1,
 			group : 'Bon Jovi',
 			song : "Blaze Of Glory",
 			year : 1990,
 			ignore : true
 		},
 		{
-			pack : EN_1990_GR_PACK_2,
+			pack : EN_1990_GR_PACK_1,
 			group : 'Bon Jovi',
 			song : "Always",
 			year : 1994,
 			ignore : true
 		},
 		{
-			pack : EN_1990_GR_PACK_2,
+			pack : EN_1990_GR_PACK_1,
 			group : 'Bon Jovi',
 			song : "Bed Of Roses",
 			year : 1993,
 			ignore : true
 		},
 		{
-			pack : EN_1990_GR_PACK_2,
+			pack : EN_1990_GR_PACK_1,
 			group : 'U2',
 			song : "One",
 			year : 1991,
@@ -565,14 +565,14 @@ let en_1990_gr = [
 			year : 1996
 		},
 		{
-			pack : EN_1990_GR_PACK_2,
+			pack : EN_1990_GR_PACK_1,
 			group : 'U2',
 			song : "The Fly",
 			year : 1991,
 			ignore : true
 		},
 		{
-			pack : EN_1990_GR_PACK_2,
+			pack : EN_1990_GR_PACK_1,
 			group : 'U2',
 			song : "Discotheque",
 			year : 1997,
@@ -603,7 +603,7 @@ let en_1990_gr = [
 			year : 1992
 		},
 		{
-			pack : EN_1990_GR_PACK_2,
+			pack : EN_1990_GR_PACK_1,
 			group : 'Queen',
 			song : "Made In Heaven",
 			year : 1995,
@@ -617,7 +617,7 @@ let en_1990_gr = [
 			ignore : true
 		},	
 		{
-			pack : EN_1990_GR_PACK_2,
+			pack : EN_1990_GR_PACK_1,
 			group : 'Soundgarden',
 			song : "Black Hole Sun",
 			year : 1994
@@ -635,7 +635,7 @@ let en_1990_gr = [
 			year : 1998
 		},	
 		{
-			pack : EN_1990_GR_PACK_2,
+			pack : EN_1990_GR_PACK_1,
 			group : 'Soundgarden',
 			song : "Spoonman",
 			year : 1994
@@ -647,21 +647,21 @@ let en_1990_gr = [
 			year : 1992
 		},
 		{
-			pack : EN_1990_GR_PACK_2,
+			pack : EN_1990_GR_PACK_1,
 			group : 'ZZ Top',
 			song : "My Head's In Mississippi",
 			year : 1990,
 			ignore : true
 		},
 		{
-			pack : EN_1990_GR_PACK_2,
+			pack : EN_1990_GR_PACK_1,
 			group : 'ZZ Top',
 			song : "Give It Up",
 			year : 1991,
 			ignore : true
 		},
 		{
-			pack : EN_1990_GR_PACK_2,
+			pack : EN_1990_GR_PACK_1,
 			group : 'ZZ Top',
 			song : "Pincushion",
 			year : 1994,
@@ -945,7 +945,8 @@ let en_1990_gr = [
 			pack : EN_1990_GR_PACK_4,
 			group : 'Vaya Con Dios',
 			song : "Nah Neh Nah",
-			year : 1990
+			year : 1990,
+			ignore : true
 		},
 		{
 			pack : EN_1990_GR_PACK_4,
@@ -1018,13 +1019,15 @@ let en_1990_gr = [
 			pack : EN_1990_GR_PACK_3,
 			group : "NSYNC",
 			song : "Bye Bye Bye",
-			year : 2000
+			year : 2000,
+			ignore : true
 		},
 		{
 			pack : EN_1990_GR_PACK_3,
 			group : "NSYNC",
 			song : "It's Gonna Be Me",
-			year : 2000
+			year : 2000,
+			ignore : true
 		},
 		{
 			pack : EN_1990_GR_PACK_5,
@@ -1177,7 +1180,8 @@ let en_1990_gr = [
 			pack : EN_1990_GR_PACK_3,
 			group : 'New Order',
 			song : "World In Motion",
-			year : 1990
+			year : 1990,
+			ignore : true
 		},
 		{
 			pack : EN_1990_GR_PACK_6,
@@ -1286,7 +1290,8 @@ let en_1990_gr = [
 			pack : EN_1990_GR_PACK_3,
 			group : 'New Order',
 			song : "Regret",
-			year : 1993
+			year : 1993,
+			ignore : true
 		},	
 		{
 			pack : EN_1990_GR_PACK_6,
@@ -1454,7 +1459,8 @@ let en_1990_gr = [
 			pack : EN_1990_GR_PACK_3,
 			group : 'NSYNC',
 			song : "Tearing up my heart",
-			year : 1998
+			year : 1998,
+			ignore : true
 		},
 		{
 			pack : EN_1990_GR_PACK_3,
@@ -1533,25 +1539,25 @@ let en_1990_gr = [
 			ignore : true
 		},
 		{
-			pack : EN_1990_GR_PACK_2,
+			pack : EN_1990_GR_PACK_1,
 			group : 'Pearl Jam',
 			song : "Alive",
 			year : 1991
 		},
 		{
-			pack : EN_1990_GR_PACK_2,
+			pack : EN_1990_GR_PACK_1,
 			group : 'Pearl Jam',
 			song : "Jeremy",
 			year : 1992
 		},
 		{
-			pack : EN_1990_GR_PACK_2,
+			pack : EN_1990_GR_PACK_1,
 			group : 'Alice In Chains',
 			song : "Would?",
 			year : 1992
 		},
 		{
-			pack : EN_1990_GR_PACK_2,
+			pack : EN_1990_GR_PACK_1,
 			group : 'Alice In Chains',
 			song : "Man in the Box",
 			year : 1990
@@ -1590,16 +1596,14 @@ let en_1990_gr = [
 			year : 1991
 		},
 		{
-			pack : EN_1990_GR_PACK_3,
+			pack : EN_1990_GR_PACK_5,
 			group : "Black Box",
-			song : "Everybody Everybody",
-			year : 1990
+			song : "Everybody Everybody (1990)"
 		},
 		{
-			pack : EN_1990_GR_PACK_3,
+			pack : EN_1990_GR_PACK_5,
 			group : "Black Box",
-			song : "Strike It Up",
-			year : 1990
+			song : "Strike It Up (1990)"
 		},
 		{
 			pack : EN_1990_GR_PACK_3,
@@ -1724,10 +1728,9 @@ let en_1990_gr = [
 			ignore : true
 		},
 		{
-			pack : EN_1990_GR_PACK_3,
+			pack : EN_1990_GR_PACK_6,
 			group : 'Daze',
-			song : "Together forever",
-			year : 1997
+			song : "Together forever (1997)"
 		},
 		{
 			pack : EN_1990_GR_PACK_4,
@@ -1843,7 +1846,7 @@ let en_1990_gr = [
 			ignore : true
 		},
 		{
-			pack : EN_1990_GR_PACK_2,
+			pack : EN_1990_GR_PACK_1,
 			group : 'Misfits',
 			song : "Dig Up Her Bones",
 			year : 1997
@@ -1855,17 +1858,17 @@ let en_1990_gr = [
 			year : 1993
 		},
 		{
-			pack : EN_1990_GR_PACK_2,
+			pack : EN_1990_GR_PACK_1,
 			group : "Weezer",
 			song : "Buddy Holly (1994)"
 		},
 		{
-			pack : EN_1990_GR_PACK_2,
+			pack : EN_1990_GR_PACK_1,
 			group : "Weezer",
 			song : "Say It Ain't So (1995)"
 		},
 		{
-			pack : EN_1990_GR_PACK_2,
+			pack : EN_1990_GR_PACK_1,
 			group : "Weezer",
 			song : "Undone – The Sweater Song (1994)"
 		},
@@ -1952,7 +1955,7 @@ let en_1990_gr = [
 			song : "Hymn (1994)"
 		},
 		{
-			pack : EN_1990_GR_PACK_2,
+			pack : EN_1990_GR_PACK_1,
 			group : "Semisonic",
 			song : "Closing Time (1998)"
 		},
@@ -1969,7 +1972,6 @@ let en_1990_gr = [
 ];
 
 let en_1990_gr_1 =	en_1990_gr.filter(item => item.pack == 1);
-let en_1990_gr_2 =	en_1990_gr.filter(item => item.pack == 2);
 let en_1990_gr_4 =	en_1990_gr.filter(item => item.pack == 4);
 let en_1990_gr_5 =	en_1990_gr.filter(item => item.pack == 5);
 let en_1990_gr_7 =	en_1990_gr.filter(item => item.pack == 7);
@@ -1985,11 +1987,7 @@ let music = [
 		packs: [
 				{
 					arr: en_1990_gr_1,
-					name: 'EN 1990s Groups: Rock Medium'
-				},
-				{
-					arr: en_1990_gr_2,
-					name: 'EN 1990s Groups: Rock Hard'
+					name: 'EN 1990s Groups: Rock'
 				},
 				{
 					arr: en_1990_gr_4,
