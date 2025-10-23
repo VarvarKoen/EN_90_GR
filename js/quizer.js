@@ -728,8 +728,7 @@ let en_1990_gr = [
 		{
 			pack : EN_1990_GR_PACK_3,
 			group : 'Jamiroquai',
-			song : "Virtual Insanity",
-			year : 1996
+			song : "Virtual Insanity (1996)"
 		},
 		{
 			pack : EN_1990_GR_PACK_4,
@@ -1136,10 +1135,9 @@ let en_1990_gr = [
 			ignore : true
 		},
 		{
-			pack : EN_1990_GR_PACK_6,
+			pack : EN_1990_GR_PACK_4,
 			group : 'Crazy Town',
-			song : "Butterfly",
-			year : 2000
+			song : "Butterfly (2000)"
 		},
 		{
 			pack : EN_1990_GR_PACK_6,
@@ -1162,8 +1160,7 @@ let en_1990_gr = [
 		{
 			pack : EN_1990_GR_PACK_6,
 			group : 'Capella',
-			song : "U Got 2 Let The Music",
-			year : 1993
+			song : "U Got 2 Let The Music (1993)"
 		},
 		{
 			pack : EN_1990_GR_PACK_6,
@@ -1186,14 +1183,12 @@ let en_1990_gr = [
 		{
 			pack : EN_1990_GR_PACK_6,
 			group : 'Culture Beat',
-			song : "Mr Vain",
-			year : 1993
+			song : "Mr Vain (1993)"
 		},
 		{
 			pack : EN_1990_GR_PACK_6,
 			group : 'Culture Beat',
-			song : "Anything",
-			year : 1993
+			song : "Anything (1993)"
 		},
 		{
 			pack : EN_1990_GR_PACK_6,
@@ -1211,8 +1206,7 @@ let en_1990_gr = [
 		{
 			pack : EN_1990_GR_PACK_6,
 			group : 'Masterboy',
-			song : "Feel the Heat of the Night",
-			year : 1994
+			song : "Feel the Heat of the Night (1994)"
 		},
 		{
 			pack : EN_1990_GR_PACK_3,
@@ -1239,22 +1233,19 @@ let en_1990_gr = [
 			year : 1995
 		},	
 		{
-			pack : EN_1990_GR_PACK_6,
+			pack : EN_1990_GR_PACK_4,
 			group : 'Inner Circle',
-			song : "Sweat (A La La La La Song)",
-			year : 1992
+			song : "Sweat (A La La La La Song) (1992)"
 		},
 		{
-			pack : EN_1990_GR_PACK_6,
+			pack : EN_1990_GR_PACK_4,
 			group : 'Smash Mouth',
-			song : "All Star",
-			year : 1999
+			song : "All Star (1999)"
 		},
 		{
-			pack : EN_1990_GR_PACK_6,
+			pack : EN_1990_GR_PACK_4,
 			group : 'Smash Mouth',
-			song : "I'm A Believer",
-			year : 1999
+			song : "I'm A Believer (1999)"
 		},
 		{
 			pack : EN_1990_GR_PACK_6,
@@ -1269,22 +1260,21 @@ let en_1990_gr = [
 			year : 1994
 		},
 		{
-			pack : EN_1990_GR_PACK_6,
+			pack : EN_1990_GR_PACK_4,
 			group : 'Sade',
-			song : "No Ordinary Love",
-			year : 1992
+			song : "No Ordinary Love (1992)"
 		},
 		{
 			pack : EN_1990_GR_PACK_6,
 			group : 'Domino',
 			song : "Baila baila conmigo",
-			year : 1991
+			year : 1991,
+			ignore : true
 		},
 		{
 			pack : EN_1990_GR_PACK_6,
 			group : 'Real McCoy',
-			song : "Another Night",
-			year : 1993
+			song : "Another Night (1993)"
 		},
 		{
 			pack : EN_1990_GR_PACK_3,
@@ -1854,8 +1844,7 @@ let en_1990_gr = [
 		{
 			pack : EN_1990_GR_PACK_3,
 			group : 'Onyx',
-			song : "Slam",
-			year : 1993
+			song : "Slam (1993)"
 		},
 		{
 			pack : EN_1990_GR_PACK_1,
@@ -1968,6 +1957,61 @@ let en_1990_gr = [
 			pack : EN_1990_GR_PACK_6,
 			group : 'Urban Cookie Collective',
 			song : "Feels Like Heaven (1993)"
+		},
+		{
+			pack : EN_1990_GR_PACK_3,
+			group : 'Jamiroquai',
+			song : "Cosmic Girl (1996)"
+		},
+		{
+			pack : EN_1990_GR_PACK_3,
+			group : 'Jamiroquai',
+			song : "Deeper Underground (1998)"
+		},
+		{
+			pack : EN_1990_GR_PACK_3,
+			group : 'Onyx',
+			song : "Throw Ya Gunz (1992)"
+		},
+		{
+			pack : EN_1990_GR_PACK_3,
+			group : 'Onyx',
+			song : "Last Dayz (1995)"
+		},
+		{
+			pack : EN_1990_GR_PACK_6,
+			group : 'Capella',
+			song : "Move On Baby (1994)"
+		},
+		{
+			pack : EN_1990_GR_PACK_6,
+			group : 'Capella',
+			song : "Tell Me the Way (1995)"
+		},
+		{
+			pack : EN_1990_GR_PACK_6,
+			group : 'Culture Beat',
+			song : "Crying in the Rain (1996)"
+		},
+		{
+			pack : EN_1990_GR_PACK_6,
+			group : 'Masterboy',
+			song : "Feel the Fire (1995)"
+		},
+		{
+			pack : EN_1990_GR_PACK_6,
+			group : 'Masterboy',
+			song : "Generation of Love (1995)"
+		},
+		{
+			pack : EN_1990_GR_PACK_6,
+			group : 'Real McCoy',
+			song : "Love & Devotion (1995)"
+		},
+		{
+			pack : EN_1990_GR_PACK_6,
+			group : 'Real McCoy',
+			song : "Run Away (1994)"
 		}
 ];
 
