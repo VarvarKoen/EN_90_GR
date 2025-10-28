@@ -2012,6 +2012,21 @@ let en_1990_gr = [
 			pack : EN_1990_GR_PACK_6,
 			group : 'Real McCoy',
 			song : "Run Away (1994)"
+		},
+		{
+			pack : EN_1990_GR_PACK_6,
+			group : 'Imperio',
+			song : "Atlantis (1996)"
+		},
+		{
+			pack : EN_1990_GR_PACK_6,
+			group : 'Imperio',
+			song : "Nostra Culpa (1995)"
+		},
+		{
+			pack : EN_1990_GR_PACK_6,
+			group : 'Imperio',
+			song : "Cyberdream (1996)"
 		}
 ];
 
