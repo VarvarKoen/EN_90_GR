@@ -2027,6 +2027,11 @@ let en_1990_gr = [
 			pack : EN_1990_GR_PACK_6,
 			group : 'Imperio',
 			song : "Cyberdream (1996)"
+		},
+		{
+			pack : EN_1990_GR_PACK_3,
+			group : 'Stardust',
+			song : "Music Sounds Better with You (1998)"
 		}
 ];
 
