@@ -2032,6 +2032,11 @@ let en_1990_gr = [
 			pack : EN_1990_GR_PACK_3,
 			group : 'Stardust',
 			song : "Music Sounds Better with You (1998)"
+		},
+		{
+			pack : EN_1990_F_PACK_6,
+			group : 'Whigfield',
+			song : "Saturday Night (1994)"
 		}
 ];
 
