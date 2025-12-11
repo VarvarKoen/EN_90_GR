@@ -2034,9 +2034,19 @@ let en_1990_gr = [
 			song : "Music Sounds Better with You (1998)"
 		},
 		{
-			pack : EN_1990_F_PACK_6,
+			pack : EN_1990_GR_PACK_6,
 			group : 'Whigfield',
 			song : "Saturday Night (1994)"
+		},
+		{
+			pack : EN_1990_GR_PACK_1,
+			group : 'Rage Against the Machine',
+			song : "Killing In the Name (1992)"
+		},
+		{
+			pack : EN_1990_GR_PACK_1,
+			group : 'Rage Against the Machine',
+			song : "Testify (1999)"
 		}
 ];
 
