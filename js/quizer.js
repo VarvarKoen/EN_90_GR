@@ -1165,7 +1165,7 @@ let en_1990_gr = [
 			song : "U Got 2 Let The Music (1993)"
 		},
 		{
-			pack : EN_1990_GR_PACK_6,
+			pack : EN_1990_GR_PACK_10,
 			group : 'Urban Cookie Collective',
 			song : "High On A Happy Vibe (1994)"
 		},
@@ -1950,12 +1950,12 @@ let en_1990_gr = [
 			song : "Closing Time (1998)"
 		},
 		{
-			pack : EN_1990_GR_PACK_6,
+			pack : EN_1990_GR_PACK_10,
 			group : 'Urban Cookie Collective',
 			song : "The Key the Secret (1993)"
 		},
 		{
-			pack : EN_1990_GR_PACK_6,
+			pack : EN_1990_GR_PACK_10,
 			group : 'Urban Cookie Collective',
 			song : "Feels Like Heaven (1993)"
 		},
