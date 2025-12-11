@@ -1160,7 +1160,7 @@ let en_1990_gr = [
 			year : 1992
 		},
 		{
-			pack : EN_1990_GR_PACK_6,
+			pack : EN_1990_GR_PACK_10,
 			group : 'Capella',
 			song : "U Got 2 Let The Music (1993)"
 		},
@@ -1274,7 +1274,7 @@ let en_1990_gr = [
 			ignore : true
 		},
 		{
-			pack : EN_1990_GR_PACK_6,
+			pack : EN_1990_GR_PACK_10,
 			group : 'Real McCoy',
 			song : "Another Night (1993)"
 		},
@@ -1863,17 +1863,17 @@ let en_1990_gr = [
 			song : "Undone – The Sweater Song (1994)"
 		},
 		{
-			pack : EN_1990_GR_PACK_6,
+			pack : EN_1990_GR_PACK_10,
 			group : "Fun Factory",
 			song : "Close to You (1995)"
 		},
 		{
-			pack : EN_1990_GR_PACK_6,
+			pack : EN_1990_GR_PACK_10,
 			group : "Fun Factory",
 			song : "Take Your Chance (1994)"
 		},
 		{
-			pack : EN_1990_GR_PACK_6,
+			pack : EN_1990_GR_PACK_10,
 			group : "Fun Factory",
 			song : "Pain (1994)"
 		},
@@ -1910,32 +1910,32 @@ let en_1990_gr = [
 			song : "Can't Help Myself (1990)"
 		},
 		{
-			pack : EN_1990_GR_PACK_6,
+			pack : EN_1990_GR_PACK_10,
 			group : "Mr. President",
 			song : "Up'n Away (1994)"
 		},
 		{
-			pack : EN_1990_GR_PACK_6,
+			pack : EN_1990_GR_PACK_10,
 			group : "Mr. President",
 			song : "4 On the Floor (1995)"
 		},
 		{
-			pack : EN_1990_GR_PACK_6,
+			pack : EN_1990_GR_PACK_10,
 			group : "Mr. President",
 			song : "I Give You My Heart (1996)"
 		},
 		{
-			pack : EN_1990_GR_PACK_6,
+			pack : EN_1990_GR_PACK_10,
 			group : "Captain Hollywood Project",
 			song : "More and More (1992)"
 		},
 		{
-			pack : EN_1990_GR_PACK_6,
+			pack : EN_1990_GR_PACK_10,
 			group : "Captain Hollywood Project",
 			song : "Only with You (1993)"
 		},
 		{
-			pack : EN_1990_GR_PACK_6,
+			pack : EN_1990_GR_PACK_10,
 			group : "Captain Hollywood Project",
 			song : "Love and Pain (1996)"
 		},
@@ -1980,12 +1980,12 @@ let en_1990_gr = [
 			song : "Last Dayz (1995)"
 		},
 		{
-			pack : EN_1990_GR_PACK_6,
+			pack : EN_1990_GR_PACK_10,
 			group : 'Capella',
 			song : "Move On Baby (1994)"
 		},
 		{
-			pack : EN_1990_GR_PACK_6,
+			pack : EN_1990_GR_PACK_10,
 			group : 'Capella',
 			song : "Tell Me the Way (1995)"
 		},
@@ -2005,12 +2005,12 @@ let en_1990_gr = [
 			song : "Generation of Love (1995)"
 		},
 		{
-			pack : EN_1990_GR_PACK_6,
+			pack : EN_1990_GR_PACK_10,
 			group : 'Real McCoy',
 			song : "Love & Devotion (1995)"
 		},
 		{
-			pack : EN_1990_GR_PACK_6,
+			pack : EN_1990_GR_PACK_10,
 			group : 'Real McCoy',
 			song : "Run Away (1994)"
 		},
@@ -2035,7 +2035,7 @@ let en_1990_gr = [
 			song : "Music Sounds Better with You (1998)"
 		},
 		{
-			pack : EN_1990_GR_PACK_10,
+			pack : EN_1990_GR_PACK_6,
 			group : 'Whigfield',
 			song : "Saturday Night (1994)"
 		},
