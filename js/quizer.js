@@ -348,6 +348,7 @@ const en_1990_gr_icon = [
 	'pop_medium',
 	'pop_hard',
 	'womens_vocals',
+	'eurodance',
 	'eurodance'
 ];
 
@@ -360,6 +361,7 @@ const EN_1990_GR_PACK_6 = 9;
 const EN_1990_GR_PACK_7 = 6;
 const EN_1990_GR_PACK_8 = 3;
 const EN_1990_GR_PACK_9 = 8;
+const EN_1990_GR_PACK_10 = 10;
 
 let en_1990_gr = [
 		{
@@ -1775,10 +1777,9 @@ let en_1990_gr = [
 			year : 1999
 		},
 		{
-			pack : EN_1990_GR_PACK_6,
+			pack : EN_1990_GR_PACK_10,
 			group : 'Right Said Fred',
-			song : "I'm Too Sexy",
-			year : 1991
+			song : "I'm Too Sexy (1991)"
 		},
 		{
 			pack : EN_1990_GR_PACK_6,
@@ -1877,7 +1878,7 @@ let en_1990_gr = [
 			song : "Pain (1994)"
 		},
 		{
-			pack : EN_1990_GR_PACK_6,
+			pack : EN_1990_GR_PACK_10,
 			group : "C+C Music Factory",
 			song : "Gonna Make You Sweat (Everybody Dance Now) (1990)"
 		},
@@ -1894,17 +1895,17 @@ let en_1990_gr = [
 			ignore : true
 		},
 		{
-			pack : EN_1990_GR_PACK_6,
+			pack : EN_1990_GR_PACK_10,
 			group : "2 Brothers on the 4th Floor",
 			song : "Come Take My Hand (1995)"
 		},
 		{
-			pack : EN_1990_GR_PACK_6,
+			pack : EN_1990_GR_PACK_10,
 			group : "2 Brothers on the 4th Floor",
 			song : "Dreams (Will Come Alive) (1994)"
 		},
 		{
-			pack : EN_1990_GR_PACK_6,
+			pack : EN_1990_GR_PACK_10,
 			group : "2 Brothers on the 4th Floor",
 			song : "Can't Help Myself (1990)"
 		},
@@ -1939,7 +1940,7 @@ let en_1990_gr = [
 			song : "Love and Pain (1996)"
 		},
 		{
-			pack : EN_1990_GR_PACK_6,
+			pack : EN_1990_GR_PACK_10,
 			group : "Cabballero",
 			song : "Hymn (1994)"
 		},
@@ -2014,17 +2015,17 @@ let en_1990_gr = [
 			song : "Run Away (1994)"
 		},
 		{
-			pack : EN_1990_GR_PACK_6,
+			pack : EN_1990_GR_PACK_10,
 			group : 'Imperio',
 			song : "Atlantis (1996)"
 		},
 		{
-			pack : EN_1990_GR_PACK_6,
+			pack : EN_1990_GR_PACK_10,
 			group : 'Imperio',
 			song : "Nostra Culpa (1995)"
 		},
 		{
-			pack : EN_1990_GR_PACK_6,
+			pack : EN_1990_GR_PACK_10,
 			group : 'Imperio',
 			song : "Cyberdream (1996)"
 		},
@@ -2034,7 +2035,7 @@ let en_1990_gr = [
 			song : "Music Sounds Better with You (1998)"
 		},
 		{
-			pack : EN_1990_GR_PACK_6,
+			pack : EN_1990_GR_PACK_10,
 			group : 'Whigfield',
 			song : "Saturday Night (1994)"
 		},
@@ -2047,6 +2048,16 @@ let en_1990_gr = [
 			pack : EN_1990_GR_PACK_1,
 			group : 'Rage Against the Machine',
 			song : "Testify (1999)"
+		},
+		{
+			pack : EN_1990_GR_PACK_10,
+			group : 'Magic Affair',
+			song : "Give Me All Your Love (1994)"
+		},
+		{
+			pack : EN_1990_GR_PACK_10,
+			group : 'Magic Affair',
+			song : "Omen III (1994)"
 		}
 ];
 
@@ -2055,6 +2066,7 @@ let en_1990_gr_4 =	en_1990_gr.filter(item => item.pack == 4);
 let en_1990_gr_5 =	en_1990_gr.filter(item => item.pack == 5);
 let en_1990_gr_7 =	en_1990_gr.filter(item => item.pack == 7);
 let en_1990_gr_9 =	en_1990_gr.filter(item => item.pack == 9);
+let en_1990_gr_10 =	en_1990_gr.filter(item => item.pack == 10);
 
 
 let music = [
@@ -2083,6 +2095,10 @@ let music = [
 				{
 					arr: en_1990_gr_9,
 					name: 'EN 1990s Groups: Eurodance'
+				},
+				{
+					arr: en_1990_gr_10,
+					name: 'EN 1990s Groups: Eurodance 2'
 				}
 			]
 	},
