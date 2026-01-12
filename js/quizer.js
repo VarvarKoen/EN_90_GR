@@ -2058,6 +2058,11 @@ let en_1990_gr = [
 			pack : EN_1990_GR_PACK_10,
 			group : 'Magic Affair',
 			song : "Omen III (1994)"
+		},
+		{
+			pack : EN_1990_GR_PACK_3,
+			group : 'House of Pain',
+			song : "Jump Around (1992)"
 		}
 ];
 
