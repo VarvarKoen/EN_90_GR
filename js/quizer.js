@@ -2063,6 +2063,11 @@ let en_1990_gr = [
 			pack : EN_1990_GR_PACK_3,
 			group : 'House of Pain',
 			song : "Jump Around (1992)"
+		},
+		{
+			pack : EN_1990_GR_PACK_10,
+			group : '20 Fingers',
+			song : "Short Dick Man (ft Gilette) (1994)"
 		}
 ];
 
