@@ -349,7 +349,8 @@ const en_1990_gr_icon = [
 	'pop_hard',
 	'womens_vocals',
 	'eurodance',
-	'eurodance'
+	'eurodance',
+	'pop'
 ];
 
 const EN_1990_GR_PACK_1 = 1;
@@ -362,6 +363,7 @@ const EN_1990_GR_PACK_7 = 6;
 const EN_1990_GR_PACK_8 = 3;
 const EN_1990_GR_PACK_9 = 8;
 const EN_1990_GR_PACK_10 = 10;
+const EN_1990_GR_PACK_11 = 11;
 
 let en_1990_gr = [
 		{
@@ -1211,7 +1213,7 @@ let en_1990_gr = [
 			song : "Feel the Heat of the Night (1994)"
 		},
 		{
-			pack : EN_1990_GR_PACK_3,
+			pack : EN_1990_GR_PACK_11,
 			group : 'EMF',
 			song : "Unbelievable",
 			year : 1990
@@ -1598,16 +1600,16 @@ let en_1990_gr = [
 			song : "Strike It Up (1990)"
 		},
 		{
-			pack : EN_1990_GR_PACK_3,
+			pack : EN_1990_GR_PACK_11,
 			group : "New Radicals",
-			song : "You Get What You Give",
-			year : 1998
+			song : "You Get What You Give (1998)"
 		},
 		{
 			pack : EN_1990_GR_PACK_3,
 			group : "New Radicals",
 			song : "Someday We’ll Know",
-			year : 1999
+			year : 1999,
+			ignore : true
 		},
 		{
 			pack : EN_1990_GR_PACK_1,
@@ -1702,7 +1704,7 @@ let en_1990_gr = [
 			year : 1993
 		},
 		{
-			pack : EN_1990_GR_PACK_5,
+			pack : EN_1990_GR_PACK_11,
 			group : 'Deee-Lite',
 			song : "Groove Is in the Heart",
 			year : 1990
@@ -1945,7 +1947,7 @@ let en_1990_gr = [
 			song : "Hymn (1994)"
 		},
 		{
-			pack : EN_1990_GR_PACK_1,
+			pack : EN_1990_GR_PACK_11,
 			group : "Semisonic",
 			song : "Closing Time (1998)"
 		},
@@ -2030,7 +2032,7 @@ let en_1990_gr = [
 			song : "Cyberdream (1996)"
 		},
 		{
-			pack : EN_1990_GR_PACK_3,
+			pack : EN_1990_GR_PACK_11,
 			group : 'Stardust',
 			song : "Music Sounds Better with You (1998)"
 		},
@@ -2060,7 +2062,7 @@ let en_1990_gr = [
 			song : "Omen III (1994)"
 		},
 		{
-			pack : EN_1990_GR_PACK_3,
+			pack : EN_1990_GR_PACK_11,
 			group : 'House of Pain',
 			song : "Jump Around (1992)"
 		},
@@ -2077,6 +2079,7 @@ let en_1990_gr_5 =	en_1990_gr.filter(item => item.pack == 5);
 let en_1990_gr_7 =	en_1990_gr.filter(item => item.pack == 7);
 let en_1990_gr_9 =	en_1990_gr.filter(item => item.pack == 9);
 let en_1990_gr_10 =	en_1990_gr.filter(item => item.pack == 10);
+let en_1990_gr_11 =	en_1990_gr.filter(item => item.pack == 11);
 
 
 let music = [
@@ -2109,6 +2112,10 @@ let music = [
 				{
 					arr: en_1990_gr_10,
 					name: 'EN 1990s Groups: Eurodance 2'
+				},
+				{
+					arr: en_1990_gr_11,
+					name: 'EN 1990s Groups: One Hit Wonders'
 				}
 			]
 	},
@@ -2122,6 +2129,7 @@ function map_songs(){
 	$('#mirror').hide();
 	$('#map').hide();
 	$('#package_content').hide();
+	$('#sec_15_hist').show();
 	$('#mapping_content').show();
 	toggleLearn();
 	for(var j=0; j < music.length; j++){
@@ -2460,6 +2468,15 @@ function back_to_browser(){
 function back_to_current_pack(){
 	back = back_to_browser;
 	$('#mapping_content').hide();
+	$('#sec_15_hist').hide();
+	song_stop();
 	$('#map').show();
 	package_num(pack_num);
+}
+
+function song_stop() {
+	if(audio){
+		audio.pause();
+		audio = null;
+	}
 }
