@@ -2090,10 +2090,6 @@ let music = [
 		type: 'gr',
 		packs: [
 				{
-					arr: en_1990_gr_1,
-					name: 'EN 1990s Groups: Rock'
-				},
-				{
 					arr: en_1990_gr_4,
 					name: 'EN 1990s Groups: Pop Medium'
 				},
@@ -2112,6 +2108,10 @@ let music = [
 				{
 					arr: en_1990_gr_10,
 					name: 'EN 1990s Groups: Eurodance 2'
+				},
+				{
+					arr: en_1990_gr_1,
+					name: 'EN 1990s Groups: Rock'
 				},
 				{
 					arr: en_1990_gr_11,
