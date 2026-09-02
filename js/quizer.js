@@ -553,20 +553,17 @@ let en_1990_gr = [
 		{
 			pack : EN_1990_GR_PACK_5,
 			group : 'Garbage',
-			song : "I Think I'm Paranoid",
-			year : 1998
+			song : "I Think I'm Paranoid (1998)"
 		},
 		{
 			pack : EN_1990_GR_PACK_5,
 			group : 'Garbage',
-			song : "#1 Crush",
-			year : 1996
+			song : "#1 Crush (1996)"
 		},
 		{
 			pack : EN_1990_GR_PACK_5,
 			group : 'Garbage',
-			song : "Stupid Girl",
-			year : 1996
+			song : "Stupid Girl (1996)"
 		},
 		{
 			pack : EN_1990_GR_PACK_1,
@@ -1325,22 +1322,20 @@ let en_1990_gr = [
 			year : 1999
 		},	
 		{
-			pack : EN_1990_GR_PACK_6,
+			pack : EN_1990_GR_PACK_5,
 			group : 'Me & My',
-			song : "Dub I Dub",
-			year : 1995
+			song : "Dub I Dub (1995)"
 		},	
 		{
-			pack : EN_1990_GR_PACK_6,
+			pack : EN_1990_GR_PACK_5,
 			group : 'Me & My',
-			song : "Baby Boy",
-			year : 1995
+			song : "Baby Boy (1995)"
 		},	
 		{
-			pack : EN_1990_GR_PACK_6,
+			pack : EN_1990_GR_PACK_5,
 			group : 'Me & My',
-			song : "Secret Garden",
-			year : 1997
+			song : "Secret Garden (1997)",
+			ignore : true
 		},	
 		{
 			pack : EN_1990_GR_PACK_1,
@@ -1350,14 +1345,12 @@ let en_1990_gr = [
 		{
 			pack : EN_1990_GR_PACK_4,
 			group : 'Cue',
-			song : "Hello",
-			year : 2000
+			song : "Hello (2000)"
 		},	
 		{
 			pack : EN_1990_GR_PACK_6,
 			group : 'Basic Element',
-			song : "Touch",
-			year : 1995
+			song : "Touch (1995)"
 		},	
 		{
 			pack : EN_1990_GR_PACK_6,
@@ -1652,62 +1645,52 @@ let en_1990_gr = [
 		{
 			pack : EN_1990_GR_PACK_5,
 			group : 'Salt-N-Pepa',
-			song : "Shoop",
-			year : 1993
+			song : "Shoop (1993)"
 		},
 		{
 			pack : EN_1990_GR_PACK_5,
 			group : 'Salt-N-Pepa',
-			song : "Whatta Man",
-			year : 1993
+			song : "Whatta Man (1993)"
 		},
 		{
 			pack : EN_1990_GR_PACK_3,
 			group : 'Wu-Tang Clan',
-			song : "C.R.E.A.M. (Cash Rules Everything Around Me)",
-			year : 1994
+			song : "C.R.E.A.M. (Cash Rules Everything Around Me) (1994)"
 		},
 		{
 			pack : EN_1990_GR_PACK_3,
 			group : 'Wu-Tang Clan',
-			song : "Protect Ya Neck",
-			year : 1992
+			song : "Protect Ya Neck (1992)"
 		},
 		{
 			pack : EN_1990_GR_PACK_3,
 			group : 'Wu-Tang Clan',
-			song : "Aint Nuthing ta F' Wit",
-			year : 1993
+			song : "Aint Nuthing ta F' Wit (1993)"
 		},
 		{
 			pack : EN_1990_GR_PACK_3,
 			group : 'Nightcrawlers',
-			song : "Push the Feeling On",
-			year : 1992
+			song : "Push the Feeling On (1992)"
 		},
 		{
 			pack : EN_1990_GR_PACK_3,
 			group : 'Nightcrawlers',
-			song : "Surrender Your Love",
-			year : 1995
+			song : "Surrender Your Love (1995)"
 		},
 		{
 			pack : EN_1990_GR_PACK_3,
 			group : 'Naughty by Nature',
-			song : "O.O.P",
-			year : 1991
+			song : "O.O.P (1991)"
 		},
 		{
 			pack : EN_1990_GR_PACK_3,
 			group : 'Naughty by Nature',
-			song : "Hip Hop Hooray",
-			year : 1993
+			song : "Hip Hop Hooray (1993)"
 		},
 		{
 			pack : EN_1990_GR_PACK_11,
 			group : 'Deee-Lite',
-			song : "Groove Is in the Heart",
-			year : 1990
+			song : "Groove Is in the Heart (1990)"
 		},
 		{
 			pack : EN_1990_GR_PACK_1,
@@ -1756,8 +1739,7 @@ let en_1990_gr = [
 		{
 			pack : EN_1990_GR_PACK_3,
 			group : 'East 17',
-			song : "It's Alright",
-			year : 1993
+			song : "It's Alright (1993)"
 		},
 		{
 			pack : EN_1990_GR_PACK_5,
@@ -1769,14 +1751,12 @@ let en_1990_gr = [
 		{
 			pack : EN_1990_GR_PACK_4,
 			group : 'Kind of Blue',
-			song : "Bitter Blue",
-			year : 1991
+			song : "Bitter Blue (1991)"
 		},	
 		{
 			pack : EN_1990_GR_PACK_3,
 			group : 'Chemical Brothers',
-			song : "Hey Boy Hey Girl",
-			year : 1999
+			song : "Hey Boy Hey Girl (1999)"
 		},
 		{
 			pack : EN_1990_GR_PACK_10,
@@ -1786,50 +1766,42 @@ let en_1990_gr = [
 		{
 			pack : EN_1990_GR_PACK_6,
 			group : 'Maxx',
-			song : "Get A Way",
-			year : 1993
+			song : "Get A Way (1993)"
 		},
 		{
 			pack : EN_1990_GR_PACK_6,
 			group : 'Maxx',
-			song : "No More (I Can't Stand It)",
-			year : 1994
+			song : "No More (I Can't Stand It) (1994)"
 		},
 		{
 			pack : EN_1990_GR_PACK_6,
 			group : 'Maxx',
-			song : "You Can Get It",
-			year : 1994
+			song : "You Can Get It (1994)"
 		},
 		{
 			pack : EN_1990_GR_PACK_6,
 			group : 'U96',
-			song : "Das Boot",
-			year : 1991
+			song : "Das Boot (1991)"
 		},
 		{
 			pack : EN_1990_GR_PACK_6,
 			group : 'U96',
-			song : "Love Religion",
-			year : 1994
+			song : "Love Religion (1994)"
 		},
 		{
 			pack : EN_1990_GR_PACK_6,
 			group : 'U96',
-			song : "Heaven",
-			year : 1996
+			song : "Heaven (1996)"
 		},
 		{
 			pack : EN_1990_GR_PACK_3,
 			group : 'Blur',
-			song : "The Universal",
-			year : 1995
+			song : "The Universal (1995)"
 		},
 		{
 			pack : EN_1990_GR_PACK_3,
 			group : 'Blur',
-			song : "Beetlebum",
-			year : 1997
+			song : "Beetlebum (1997)"
 		},
 		{
 			pack : EN_1990_GR_PACK_3,
@@ -1841,8 +1813,7 @@ let en_1990_gr = [
 		{
 			pack : EN_1990_GR_PACK_1,
 			group : 'Misfits',
-			song : "Dig Up Her Bones",
-			year : 1997
+			song : "Dig Up Her Bones (1997)"
 		},
 		{
 			pack : EN_1990_GR_PACK_3,
@@ -2070,6 +2041,26 @@ let en_1990_gr = [
 			pack : EN_1990_GR_PACK_10,
 			group : '20 Fingers',
 			song : "Short Dick Man (ft Gilette) (1994)"
+		},	
+		{
+			pack : EN_1990_GR_PACK_5,
+			group : 'Me & My',
+			song : "Let the Love Go On (1999)"
+		},
+		{
+			pack : EN_1990_GR_PACK_3,
+			group : 'Beastie Boys',
+			song : "Sabotage (1994)"
+		},
+		{
+			pack : EN_1990_GR_PACK_3,
+			group : 'Beastie Boys',
+			song : "Flute Loop (1994)"
+		},
+		{
+			pack : EN_1990_GR_PACK_3,
+			group : 'Beastie Boys',
+			song : "Intergalactic (1998)"
 		}
 ];
 
