@@ -342,1774 +342,761 @@ function load(){
 }
 
 // EN songs
-const en_1990_gr_icon = [
-	'rock_medium',
-	'rock_hard',
-	'pop_medium',
-	'pop_hard',
-	'womens_vocals',
-	'eurodance',
-	'eurodance',
+const en_1990_m_icon = [
+	'medium',
+	'hard',
+	'rap',
 	'pop'
 ];
 
-const EN_1990_GR_PACK_1 = 1;
-const EN_1990_GR_PACK_2 = 2;
-const EN_1990_GR_PACK_3 = 4;
-const EN_1990_GR_PACK_4 = 5;
-const EN_1990_GR_PACK_5 = 7;
-const EN_1990_GR_PACK_6 = 9;
-const EN_1990_GR_PACK_7 = 6;
-const EN_1990_GR_PACK_8 = 3;
-const EN_1990_GR_PACK_9 = 8;
-const EN_1990_GR_PACK_10 = 10;
-const EN_1990_GR_PACK_11 = 11;
+const EN_1990_M_PACK_1 = 1;
+const EN_1990_M_PACK_2 = 2;
+const EN_1990_M_PACK_3 = 3;
+const EN_1990_M_PACK_4 = 4;
 
-let en_1990_gr = [
+let en_1990_m = [
 		{
-			pack : EN_1990_GR_PACK_1,
-			group : 'Green Day',
-			song : "Basket Case",
-			year : 1994,
-			ignore : true
-		},
-		{
-			pack : EN_1990_GR_PACK_1,
-			group : 'Green Day',
-			song : "When I Come Around",
-			year : 1995,
-			ignore : true
-		},
-		{
-			pack : EN_1990_GR_PACK_1,
-			group : 'Green Day',
-			song : "Minority",
-			year : 2000,
-			ignore : true
-		},
-		{
-			pack : EN_1990_GR_PACK_1,
-			group : 'Offspring',
-			song : "Why Don't You Get A Job",
-			year : 1998,
-			ignore : true
-		},
-		{
-			pack : EN_1990_GR_PACK_1,
-			group : 'Offspring',
-			song : "The Kids Aren't Alright",
-			year : 1999,
-			ignore : true
-		},
-		{
-			pack : EN_1990_GR_PACK_1,
-			group : 'Offspring',
-			song : "Self Esteem",
-			year : 1994,
-			ignore : true
-		},
-		{
-			pack : EN_1990_GR_PACK_1,
-			group : "Guns N Roses",
-			song : "Don't Cry",
-			year : 1991
-		},
-		{
-			pack : EN_1990_GR_PACK_1,
-			group : "Guns N Roses",
-			song : "November Rain",
-			year : 1991
+			pack : EN_1990_M_PACK_4,
+			group : 'Sin With Sebastian',
+			song : "Shut Up (And Sleep With Me) (1995)"
 		},
 		{
-			pack : EN_1990_GR_PACK_1,
-			group : "Guns N Roses",
-			song : "Knockin' On Heaven's Door",
-			year : 1991
+			pack : EN_1990_M_PACK_1,
+			group : 'Robert Miles',
+			song : "One And One (1996)"
 		},
 		{
-			pack : EN_1990_GR_PACK_1,
-			group : 'ACDC',
-			song : "Moneytalks",
-			year : 1990,
-			ignore : true
-		},
-		{
-			pack : EN_1990_GR_PACK_1,
-			group : 'ACDC',
-			song : "Big Gun",
-			year : 1993,
-			ignore : true
-		},
-		{
-			pack : EN_1990_GR_PACK_1,
-			group : 'ACDC',
-			song : "Hard as a Rock",
-			year : 1995,
-			ignore : true
-		},
-		{
-			pack : EN_1990_GR_PACK_1,
-			group : 'Red Hot Chili Peppers',
-			song : "Give It Away",
-			year : 1991,
-			ignore : true
+			pack : EN_1990_M_PACK_4,
+			group : 'Coolio',
+			song : "Gangsta's Paradise (ft LV) (1995)"
 		},
 		{
-			pack : EN_1990_GR_PACK_1,
-			group : 'Red Hot Chili Peppers',
-			song : "Under The Bridge",
-			year : 1992,
-			ignore : true
+			pack : EN_1990_M_PACK_1,
+			group : 'Robert Miles',
+			song : "Children (1995)"
 		},
 		{
-			pack : EN_1990_GR_PACK_1,
-			group : 'Red Hot Chili Peppers',
-			song : "Otherside",
-			year : 1999,
+			pack : EN_1990_M_PACK_1,
+			group : 'Will Smith',
+			song : "Men in black",
 			ignore : true
 		},
 		{
-			pack : EN_1990_GR_PACK_1,
-			group : 'Aerosmith',
-			song : "Eat The Rich",
-			year : 1993,
+			pack : EN_1990_M_PACK_1,
+			group : 'Enrique Iglesias',
+			song : "Bailamos",
 			ignore : true
 		},
 		{
-			pack : EN_1990_GR_PACK_1,
-			group : 'Aerosmith',
-			song : "Cryin'",
-			year : 1993,
-			ignore : true
+			pack : EN_1990_M_PACK_2,
+			group : 'Bruce Springsteen',
+			song : "Streets of Philadelphia (1994)"
 		},
 		{
-			pack : EN_1990_GR_PACK_1,
-			group : 'Aerosmith',
-			song : "Crazy",
-			year : 1994,
-			ignore : true
+			pack : EN_1990_M_PACK_2,
+			group : 'Seal',
+			song : "Kiss From A Rose (1994)"
 		},
 		{
-			pack : EN_1990_GR_PACK_1,
-			group : 'REM',
-			song : "Loosing My Religion",
-			year : 1991
+			pack : EN_1990_M_PACK_2,
+			group : 'Eagle-Eye Cherry',
+			song : "Save Tonight (1997)"
 		},
 		{
-			pack : EN_1990_GR_PACK_1,
-			group : 'REM',
-			song : "Shiny Happy People",
-			year : 1991
+			pack : EN_1990_M_PACK_2,
+			group : 'Eagle-Eye Cherry',
+			song : "Indecision (1998)"
 		},
 		{
-			pack : EN_1990_GR_PACK_1,
-			group : 'Oasis',
-			song : "Wonderwall",
-			year : 1995,
-			ignore : true
+			pack : EN_1990_M_PACK_1,
+			group : 'Haddaway',
+			song : "Life (1993)"
 		},
 		{
-			pack : EN_1990_GR_PACK_1,
-			group : 'Oasis',
-			song : "Champagne Supernova",
-			year : 1996,
-			ignore : true
+			pack : EN_1990_M_PACK_1,
+			group : 'Haddaway',
+			song : "I Miss You (1993)"
 		},
 		{
-			pack : EN_1990_GR_PACK_1,
-			group : 'Oasis',
-			song : "Live Forever",
-			year : 1994,
+			pack : EN_1990_M_PACK_2,
+			group : 'Fatboy Slim',
+			song : "The Rockafeller Skank",
 			ignore : true
 		},
 		{
-			pack : EN_1990_GR_PACK_1,
-			group : 'Bon Jovi',
-			song : "Blaze Of Glory",
-			year : 1990,
-			ignore : true
+			pack : EN_1990_M_PACK_2,
+			group : 'Michael Bolton',
+			song : "Can I Touch You...There? (1995)"
 		},
 		{
-			pack : EN_1990_GR_PACK_1,
-			group : 'Bon Jovi',
-			song : "Always",
-			year : 1994,
-			ignore : true
+			pack : EN_1990_M_PACK_2,
+			group : 'Lenny Kravitz',
+			song : "Fly Away (1998)"
 		},
 		{
-			pack : EN_1990_GR_PACK_1,
-			group : 'Bon Jovi',
-			song : "Bed Of Roses",
-			year : 1993,
-			ignore : true
+			pack : EN_1990_M_PACK_2,
+			group : 'Joe Cocker',
+			song : "N'Oubliez Jamais (1997)"
 		},
 		{
-			pack : EN_1990_GR_PACK_1,
-			group : 'U2',
-			song : "One",
-			year : 1991,
-			ignore : true
+			pack : EN_1990_M_PACK_2,
+			group : 'Paul McCartney',
+			song : "Hope Of Deliverance (1992)"
 		},
 		{
-			pack : EN_1990_GR_PACK_5,
-			group : 'Garbage',
-			song : "I Think I'm Paranoid (1998)"
+			pack : EN_1990_M_PACK_2,
+			group : 'Marc Anthony',
+			song : "When I Dream At Night (1999)"
 		},
 		{
-			pack : EN_1990_GR_PACK_5,
-			group : 'Garbage',
-			song : "#1 Crush (1996)"
+			pack : EN_1990_M_PACK_4,
+			group : 'Maxi Priest',
+			song : "Close To You (1990)"
 		},
 		{
-			pack : EN_1990_GR_PACK_5,
-			group : 'Garbage',
-			song : "Stupid Girl (1996)"
+			pack : EN_1990_M_PACK_3,
+			group : 'Snoop Dogg',
+			song : "Jin & Juice (1994)"
 		},
 		{
-			pack : EN_1990_GR_PACK_1,
-			group : 'U2',
-			song : "The Fly",
-			year : 1991,
-			ignore : true
+			pack : EN_1990_M_PACK_1,
+			group : 'Chris Isaak',
+			song : "Somebody's Crying (1995)"
 		},
 		{
-			pack : EN_1990_GR_PACK_1,
-			group : 'U2',
-			song : "Discotheque",
-			year : 1997,
+			pack : EN_1990_M_PACK_2,
+			group : 'Tom Petty',
+			song : "Mary Jane's Last Dance (ft The Heartbreakers)",
 			ignore : true
 		},
 		{
-			pack : EN_1990_GR_PACK_1,
-			group : 'Blink 182',
-			song : "Dammit",
-			year : 1997
+			pack : EN_1990_M_PACK_1,
+			group : 'Chris Rea',
+			song : "The Blue Cafe (1998)"
 		},
 		{
-			pack : EN_1990_GR_PACK_1,
-			group : 'Blink 182',
-			song : "What's My Age Again?",
-			year : 1999
+			pack : EN_1990_M_PACK_2,
+			group : 'Ronan Keating',
+			song : "When You Say Nothing At All (1999)"
 		},
 		{
-			pack : EN_1990_GR_PACK_1,
-			group : 'Blink 182',
-			song : "All The Small Things",
-			year : 2000
+			pack : EN_1990_M_PACK_4,
+			group : 'David Gray',
+			song : "Sail Away (1998)"
 		},
 		{
-			pack : EN_1990_GR_PACK_1,
-			group : 'REM',
-			song : "Man On The Moon",
-			year : 1992
+			pack : EN_1990_M_PACK_2,
+			group : 'George Michael',
+			song : "The Strangest Thing (1996)"
 		},
 		{
-			pack : EN_1990_GR_PACK_1,
-			group : 'Queen',
-			song : "Made In Heaven",
-			year : 1995,
-			ignore : true
+			pack : EN_1990_M_PACK_3,
+			group : '2Pac',
+			song : "California Love (ft Dr. Dre, Roger Troutman) (1995)"
 		},
 		{
-			pack : EN_1990_GR_PACK_5,
-			group : 'Chumbawamba',
-			song : "Tubthumping",
-			year : 1997,
+			pack : EN_1990_M_PACK_1,
+			group : 'Vanilla Ice',
+			song : "Ice Ice Baby",
 			ignore : true
-		},	
-		{
-			pack : EN_1990_GR_PACK_1,
-			group : 'Soundgarden',
-			song : "Black Hole Sun",
-			year : 1994
-		},
-		{
-			pack : EN_1990_GR_PACK_1,
-			group : 'Goo Goo Dolls',
-			song : "Iris",
-			year : 1998
-		},
-		{
-			pack : EN_1990_GR_PACK_1,
-			group : 'Goo Goo Dolls',
-			song : "Slide",
-			year : 1998
-		},	
-		{
-			pack : EN_1990_GR_PACK_1,
-			group : 'Soundgarden',
-			song : "Spoonman",
-			year : 1994
 		},
 		{
-			pack : EN_1990_GR_PACK_4,
-			group : 'Urge Overkill',
-			song : "Girl, You'll Be A Woman Soon",
-			year : 1992
-		},
-		{
-			pack : EN_1990_GR_PACK_1,
-			group : 'ZZ Top',
-			song : "My Head's In Mississippi",
-			year : 1990,
+			pack : EN_1990_M_PACK_1,
+			group : 'MC Hammer',
+			song : "U Can't Touch This",
 			ignore : true
 		},
 		{
-			pack : EN_1990_GR_PACK_1,
-			group : 'ZZ Top',
-			song : "Give It Up",
-			year : 1991,
+			pack : EN_1990_M_PACK_3,
+			group : 'Guru Josh',
+			song : "Infinity",
 			ignore : true
 		},
 		{
-			pack : EN_1990_GR_PACK_1,
-			group : 'ZZ Top',
-			song : "Pincushion",
-			year : 1994,
+			pack : EN_1990_M_PACK_1,
+			group : 'Dr Alban',
+			song : "It's My Life",
 			ignore : true
-		},
-		{
-			pack : EN_1990_GR_PACK_5,
-			group : 'Massive Attack',
-			song : "Unfinished Sympathy",
-			year : 1991
-		},
-		{
-			pack : EN_1990_GR_PACK_5,
-			group : 'Massive Attack',
-			song : "Teardrop",
-			year : 1998
-		},
-		{
-			pack : EN_1990_GR_PACK_3,
-			group : 'Cypress Hill',
-			song : "Insane In The Brain",
-			year : 1993
-		},
-		{
-			pack : EN_1990_GR_PACK_3,
-			group : 'Cypress Hill',
-			song : "Hits from the Bong",
-			year : 1993
-		},
-		{
-			pack : EN_1990_GR_PACK_3,
-			group : 'Cypress Hill',
-			song : "Tequila Sunrise",
-			year : 1998
-		},
-		{
-			pack : EN_1990_GR_PACK_3,
-			group : 'INXS',
-			song : "Suicide Blonde",
-			year : 1990
-		},
-		{
-			pack : EN_1990_GR_PACK_3,
-			group : 'INXS',
-			song : "Shining Star",
-			year : 1991
-		},
-		{
-			pack : EN_1990_GR_PACK_3,
-			group : 'INXS',
-			song : "Taste It",
-			year : 1992
-		},
-		{
-			pack : EN_1990_GR_PACK_1,
-			group : 'Foo Fighters',
-			song : "Monkey Wrench (1997)"
-		},
-		{
-			pack : EN_1990_GR_PACK_1,
-			group : 'Foo Fighters',
-			song : "Everlong (1997)"
-		},
-		{
-			pack : EN_1990_GR_PACK_3,
-			group : 'Jamiroquai',
-			song : "Virtual Insanity (1996)"
-		},
-		{
-			pack : EN_1990_GR_PACK_4,
-			group : 'Moloko',
-			song : "Sing in Back",
-			year : 1998
-		},
-		{
-			pack : EN_1990_GR_PACK_4,
-			group : 'Beloved',
-			song : 'Sweet harmony',
-			year : 1993
-		},
-		{
-			pack : EN_1990_GR_PACK_4,
-			group : 'Fugees',
-			song : "Killing Me Softly",
-			year : 1996
-		},
-		{
-			pack : EN_1990_GR_PACK_4,
-			group : 'Kriss Kross',
-			song : "Jump",
-			year : 1992
-		},
-		{
-			pack : EN_1990_GR_PACK_4,
-			group : 'Reamonn',
-			song : "Supergirl",
-			year : 2000
-		},
-		{
-			pack : EN_1990_GR_PACK_4,
-			group : 'Extreme',
-			song : "More Than Words",
-			year : 1990
-		},
-		{
-			pack : EN_1990_GR_PACK_4,
-			group : 'Fools Garden',
-			song : "Lemon Tree",
-			year : 1995
-		},
-		{
-			pack : EN_1990_GR_PACK_4,
-			group : 'Duran Duran',
-			song : "Ordinary World",
-			year : 1993
-		},
-		{
-			pack : EN_1990_GR_PACK_4,
-			group : 'Duran Duran',
-			song : "Come Undone",
-			year : 1993
-		},
-		{
-			pack : EN_1990_GR_PACK_4,
-			group : 'Texas',
-			song : "Summer Son",
-			year : 1999
-		},
-		{
-			pack : EN_1990_GR_PACK_4,
-			group : 'UB40',
-			song : "I Can't Help Falling In Love With You",
-			year : 1993
-		},
-		{
-			pack : EN_1990_GR_PACK_4,
-			group : 'No Mercy',
-			song : "Where Do You Go",
-			year : 1995
-		},
-		{
-			pack : EN_1990_GR_PACK_4,
-			group : 'Wet Wet Wet',
-			song : "Love Is All Around",
-			year : 1994
-		},
-		{
-			pack : EN_1990_GR_PACK_4,
-			group : 'Tears For Fears',
-			song : "Break It Down Again",
-			year : 1993
-		},
-		{
-			pack : EN_1990_GR_PACK_4,
-			group : 'Fugees',
-			song : "Ready Or Not",
-			year : 1996
-		},
-		{
-			pack : EN_1990_GR_PACK_4,
-			group : 'Fools Garden',
-			song : "Probably",
-			year : 1997
-		},	
-		{
-			pack : EN_1990_GR_PACK_4,
-			group : 'TLC',
-			song : "No Scrubs",
-			year : 1999
-		},
-		{
-			pack : EN_1990_GR_PACK_4,
-			group : 'Ten Sharp',
-			song : "You",
-			year : 1991
 		},
 		{
-			pack : EN_1990_GR_PACK_4,
-			group : 'Soul Asylum',
-			song : "Runaway Train",
-			year : 1993
+			pack : EN_1990_M_PACK_1,
+			group : 'Dr Alban',
+			song : "Let The Beat Go On (1994)"
 		},
 		{
-			pack : EN_1990_GR_PACK_4,
-			group : 'Boyz II Men',
-			song : "I'll Make Love To You",
-			year : 1994
+			pack : EN_1990_M_PACK_4,
+			group : 'Snow',
+			song : "Informer (1992)"
 		},
-		{
-			pack : EN_1990_GR_PACK_4,
-			group : 'Boyz II Men',
-			song : "End Of The Road",
-			year : 1992
-		},	
 		{
-			pack : EN_1990_GR_PACK_4,
-			group : 'TLC',
-			song : "Waterfalls",
-			year : 1995
-		},		
-		{
-			pack : EN_1990_GR_PACK_4,
-			group : 'Mike + The Mechanics',
-			song : "Over My Shoulder",
-			year : 1995
+			pack : EN_1990_M_PACK_4,
+			group : 'Ini Kamoze',
+			song : "Here Comes the Hotstepper (1995)"
 		},
 		{
-			pack : EN_1990_GR_PACK_4,
-			group : 'Mike + The Mechanics',
-			song : "Another Cup of Coffee",
-			year : 1994
+			pack : EN_1990_M_PACK_2,
+			group : 'George Michael',
+			song : "Jesus to a Child (1996)"
 		},
 		{
-			pack : EN_1990_GR_PACK_4,
-			group : 'Hanson',
-			song : "MMMBop",
-			year : 1997
+			pack : EN_1990_M_PACK_2,
+			group : 'George Michael',
+			song : "Roxanne (1999)"
 		},
-		{
-			pack : EN_1990_GR_PACK_4,
-			group : 'White Town',
-			song : "Your Woman",
-			year : 1997
-		},	
-		{
-			pack : EN_1990_GR_PACK_4,
-			group : '4 Non Blondes',
-			song : "What's Up?",
-			year : 1992
-		},		
 		{
-			pack : EN_1990_GR_PACK_4,
-			group : 'Touch & Go',
-			song : "Would You...?",
-			year : 1998
+			pack : EN_1990_M_PACK_1,
+			group : 'Prince',
+			song : "The most beautiful girl in the world (1994)"
 		},
 		{
-			pack : EN_1990_GR_PACK_4,
-			group : 'Touch & Go',
-			song : "Tango In Harlem",
-			year : 1990
+			pack : EN_1990_M_PACK_1,
+			group : 'Prince',
+			song : "Cream (1991)"
 		},
 		{
-			pack : EN_1990_GR_PACK_4,
-			group : 'Pretenders',
-			song : "I'll Stand by You",
-			year : 1994
+			pack : EN_1990_M_PACK_4,
+			group : 'Edwyn Collins',
+			song : "A Girl Like You (1994)"
 		},
 		{
-			pack : EN_1990_GR_PACK_4,
-			group : 'Sixpence None The Richer',
-			song : "Kiss Me",
-			year : 1997
+			pack : EN_1990_M_PACK_3,
+			group : 'Beck',
+			song : "Where It's At (1996)"
 		},
 		{
-			pack : EN_1990_GR_PACK_4,
-			group : 'Everything But The Girl',
-			song : "Missing",
-			year : 1994
+			pack : EN_1990_M_PACK_3,
+			group : 'Beck',
+			song : "Loser (1993)"
 		},
 		{
-			pack : EN_1990_GR_PACK_4,
-			group : 'Genesis',
-			song : "I Can't Dance",
-			year : 1991
+			pack : EN_1990_M_PACK_3,
+			group : 'Andrea Bocelli',
+			song : "Con Te Partiro",
+			ignore : true
 		},
 		{
-			pack : EN_1990_GR_PACK_4,
-			group : 'Genesis',
-			song : "No Son Of Mine",
-			year : 1991
+			pack : EN_1990_M_PACK_1,
+			group : 'Rod Stewart',
+			song : "Have I Told You Lately (1993)"
 		},
 		{
-			pack : EN_1990_GR_PACK_4,
-			group : 'Lightning Seeds',
-			song : "You Showed Me",
-			year : 1997
+			pack : EN_1990_M_PACK_1,
+			group : 'Richard Marx',
+			song : "Now And Forever (1993)"
 		},
 		{
-			pack : EN_1990_GR_PACK_4,
-			group : 'Vaya Con Dios',
-			song : "Nah Neh Nah",
-			year : 1990,
+			pack : EN_1990_M_PACK_1,
+			group : 'Ricky Martin',
+			song : "The Cup of Life",
 			ignore : true
-		},
-		{
-			pack : EN_1990_GR_PACK_4,
-			group : 'Lighthouse Family',
-			song : "Ain't No Sunshine",
-			year : 1995
 		},
 		{
-			pack : EN_1990_GR_PACK_3,
-			group : 'Depeche Mode',
-			song : "Policy Of Truth",
-			year : 1990,
+			pack : EN_1990_M_PACK_1,
+			group : 'Ricky Martin',
+			song : "Livin' la Vida Loca",
 			ignore : true
 		},
 		{
-			pack : EN_1990_GR_PACK_3,
-			group : 'Depeche Mode',
-			song : "World In My Eyes",
-			year : 1990,
+			pack : EN_1990_M_PACK_1,
+			group : 'Shaggy',
+			song : "Boombastic",
 			ignore : true
-		},
-		{
-			pack : EN_1990_GR_PACK_3,
-			group : 'Blur',
-			song : "Country House",
-			year : 1995
 		},
 		{
-			pack : EN_1990_GR_PACK_5,
-			group : 'Spice Girls',
-			song : "Too Much",
-			year : 1997,
+			pack : EN_1990_M_PACK_2,
+			group : 'Carlos Santana',
+			song : "Smooth (ft Rob Thomas)",
 			ignore : true
 		},
 		{
-			pack : EN_1990_GR_PACK_5,
-			group : 'Spice Girls',
-			song : "Say You'll Be There",
-			year : 1996,
+			pack : EN_1990_M_PACK_2,
+			group : 'Carlos Santana',
+			song : "Corazon Espinado",
 			ignore : true
 		},
 		{
-			pack : EN_1990_GR_PACK_3,
-			group : 'Verve',
-			song : "Bitter Sweet Symphony",
-			year : 1997
+			pack : EN_1990_M_PACK_4,
+			group : 'Khaled',
+			song : "Aisha (1996)"
 		},
 		{
-			pack : EN_1990_GR_PACK_5,
-			group : 'Cardigans',
-			song : "Do You Believe",
-			year : 1996,
+			pack : EN_1990_M_PACK_2,
+			group : 'Elton John',
+			song : "Candle In The Wind",
 			ignore : true
 		},
 		{
-			pack : EN_1990_GR_PACK_5,
-			group : 'Cardigans',
-			song : "Erase / Rewind",
-			year : 1999,
+			pack : EN_1990_M_PACK_2,
+			group : 'Elton John',
+			song : "Circle Of Life",
 			ignore : true
 		},
 		{
-			pack : EN_1990_GR_PACK_5,
-			group : 'Cardigans',
-			song : "Lovefool",
-			year : 1996,
+			pack : EN_1990_M_PACK_2,
+			group : 'Elton John',
+			song : "The One",
 			ignore : true
 		},
 		{
-			pack : EN_1990_GR_PACK_3,
-			group : "NSYNC",
-			song : "Bye Bye Bye",
-			year : 2000,
+			pack : EN_1990_M_PACK_1,
+			group : 'Bryan Adams',
+			song : "Please Forgive Me",
 			ignore : true
 		},
 		{
-			pack : EN_1990_GR_PACK_3,
-			group : "NSYNC",
-			song : "It's Gonna Be Me",
-			year : 2000,
+			pack : EN_1990_M_PACK_1,
+			group : 'Bryan Adams',
+			song : "(Everything I Do) I Do It For You",
 			ignore : true
 		},
 		{
-			pack : EN_1990_GR_PACK_5,
-			group : 'No Doubt',
-			song : "Just A Girl",
-			year : 1995,
+			pack : EN_1990_M_PACK_1,
+			group : 'Bryan Adams',
+			song : "Have You Ever Really Loved A Woman?",
 			ignore : true
 		},
 		{
-			pack : EN_1990_GR_PACK_5,
-			group : 'No Doubt',
-			song : "Don't Speak",
-			year : 1996,
+			pack : EN_1990_M_PACK_1,
+			group : 'Michael Jackson',
+			song : "Scream (ft Janet Jackson)",
 			ignore : true
-		},
-		{
-			pack : EN_1990_GR_PACK_3,
-			group : 'Take That',
-			song : "Back for Good",
-			year : 1995
-		},
-		{
-			pack : EN_1990_GR_PACK_3,
-			group : 'Take That',
-			song : "Relight My Fire",
-			year : 1993
-		},
-		{
-			pack : EN_1990_GR_PACK_3,
-			group : 'Take That',
-			song : "Babe",
-			year : 1993
-		},
-		{
-			pack : EN_1990_GR_PACK_3,
-			group : 'Five',
-			song : "When the Lights Go Out",
-			year : 1998
-		},
-		{
-			pack : EN_1990_GR_PACK_3,
-			group : 'Five',
-			song : "Got the Feelin'",
-			year : 1998
-		},
-		{
-			pack : EN_1990_GR_PACK_3,
-			group : 'Five',
-			song : "Everybody Get Up",
-			year : 1998
-		},
-		{
-			pack : EN_1990_GR_PACK_3,
-			group : 'Verve',
-			song : "Lucky Man",
-			year : 1997
-		},
-		{
-			pack : EN_1990_GR_PACK_3,
-			group : 'Verve',
-			song : "Sonnet",
-			year : 1998
-		},
-		{
-			pack : EN_1990_GR_PACK_6,
-			group : 'Paradisio',
-			song : "Bailando",
-			year : 1996
-		},
-		{
-			pack : EN_1990_GR_PACK_6,
-			group : 'Paradisio',
-			song : "Vamos a la Discoteca",
-			year : 1997
-		},
-		{
-			pack : EN_1990_GR_PACK_6,
-			group : 'Reel 2 Real',
-			song : "Can You Feel It (feat. The Mad Stuntman)",
-			year : 1994
-		},
-		{
-			pack : EN_1990_GR_PACK_6,
-			group : 'Reel 2 Real',
-			song : "Go On Move (ft The Mad Stuntman)",
-			year : 1993
-		},
-		{
-			pack : EN_1990_GR_PACK_6,
-			group : 'Reel 2 Real',
-			song : "I Like to Move It (ft The Mad Stuntman)",
-			year : 1994
 		},
 		{
-			pack : EN_1990_GR_PACK_6,
-			group : 'Eiffel 65',
-			song : "Blue (Da Ba Dee)",
-			year : 1998,
+			pack : EN_1990_M_PACK_1,
+			group : 'Michael Jackson',
+			song : "You Are Not Alone",
 			ignore : true
 		},
 		{
-			pack : EN_1990_GR_PACK_6,
-			group : 'Eiffel 65',
-			song : "Move Your Body",
-			year : 1999,
+			pack : EN_1990_M_PACK_1,
+			group : 'Michael Jackson',
+			song : "They Don't Care About Us",
 			ignore : true
-		},
-		{
-			pack : EN_1990_GR_PACK_4,
-			group : 'Crazy Town',
-			song : "Butterfly (2000)"
-		},
-		{
-			pack : EN_1990_GR_PACK_6,
-			group : 'SNAP',
-			song : "The Power",
-			year : 1990
-		},
-		{
-			pack : EN_1990_GR_PACK_6,
-			group : 'SNAP',
-			song : "Believe In It",
-			year : 1992
-		},
-		{
-			pack : EN_1990_GR_PACK_6,
-			group : 'SNAP',
-			song : "Rhythm Is A Dancer",
-			year : 1992
-		},
-		{
-			pack : EN_1990_GR_PACK_10,
-			group : 'Capella',
-			song : "U Got 2 Let The Music (1993)"
-		},
-		{
-			pack : EN_1990_GR_PACK_10,
-			group : 'Urban Cookie Collective',
-			song : "High On A Happy Vibe (1994)"
-		},
-		{
-			pack : EN_1990_GR_PACK_6,
-			group : 'CoRo',
-			song : "Because the Night (ft Taleesa)",
-			year : 1992
 		},
 		{
-			pack : EN_1990_GR_PACK_3,
-			group : 'New Order',
-			song : "World In Motion",
-			year : 1990,
+			pack : EN_1990_M_PACK_1,
+			group : 'Sting',
+			song : "Fields Of Gold",
 			ignore : true
 		},
 		{
-			pack : EN_1990_GR_PACK_6,
-			group : 'Culture Beat',
-			song : "Mr Vain (1993)"
-		},
-		{
-			pack : EN_1990_GR_PACK_6,
-			group : 'Culture Beat',
-			song : "Anything (1993)"
-		},
-		{
-			pack : EN_1990_GR_PACK_6,
-			group : 'Antique',
-			song : "Opa Opa",
-			year : 1998,
+			pack : EN_1990_M_PACK_1,
+			group : 'Sting',
+			song : "Desert Rose",
 			ignore : true
-		},
-		{
-			pack : EN_1990_GR_PACK_6,
-			group : 'Corona',
-			song : "The Rhythm of the Night",
-			year : 1993
-		},
-		{
-			pack : EN_1990_GR_PACK_6,
-			group : 'Masterboy',
-			song : "Feel the Heat of the Night (1994)"
-		},
-		{
-			pack : EN_1990_GR_PACK_11,
-			group : 'EMF',
-			song : "Unbelievable",
-			year : 1990
-		},
-		{
-			pack : EN_1990_GR_PACK_6,
-			group : 'Pharao',
-			song : "There Is A Star",
-			year : 1995
-		},
-		{
-			pack : EN_1990_GR_PACK_6,
-			group : 'Pharao',
-			song : "I Show You Secrets",
-			year : 1994
-		},
-		{
-			pack : EN_1990_GR_PACK_6,
-			group : 'Pharao',
-			song : "Gold In The Pyramid",
-			year : 1995
-		},	
-		{
-			pack : EN_1990_GR_PACK_4,
-			group : 'Inner Circle',
-			song : "Sweat (A La La La La Song) (1992)"
-		},
-		{
-			pack : EN_1990_GR_PACK_4,
-			group : 'Smash Mouth',
-			song : "All Star (1999)"
-		},
-		{
-			pack : EN_1990_GR_PACK_4,
-			group : 'Smash Mouth',
-			song : "I'm A Believer (1999)"
-		},
-		{
-			pack : EN_1990_GR_PACK_6,
-			group : 'Yaki-Da',
-			song : "I Saw You Dancing",
-			year : 1994
-		},
-		{
-			pack : EN_1990_GR_PACK_6,
-			group : 'Yaki-Da',
-			song : "Just a Dream",
-			year : 1994
 		},
 		{
-			pack : EN_1990_GR_PACK_4,
-			group : 'Sade',
-			song : "No Ordinary Love (1992)"
-		},
-		{
-			pack : EN_1990_GR_PACK_6,
-			group : 'Domino',
-			song : "Baila baila conmigo",
-			year : 1991,
+			pack : EN_1990_M_PACK_1,
+			group : 'Sting',
+			song : "Shape Of My Heart",
 			ignore : true
 		},
 		{
-			pack : EN_1990_GR_PACK_10,
-			group : 'Real McCoy',
-			song : "Another Night (1993)"
+			pack : EN_1990_M_PACK_4,
+			group : 'R. Kelly',
+			song : "I Believe I Can Fly (1996)"
 		},
-		{
-			pack : EN_1990_GR_PACK_3,
-			group : 'New Order',
-			song : "Regret",
-			year : 1993,
-			ignore : true
-		},	
-		{
-			pack : EN_1990_GR_PACK_6,
-			group : 'Eiffel 65',
-			song : "Too Much Of Heaven",
-			year : 2000,
-			ignore : true
-		},	
-		{
-			pack : EN_1990_GR_PACK_6,
-			group : 'Captain Jack',
-			song : "Together and Forever",
-			year : 1999
-		},	
-		{
-			pack : EN_1990_GR_PACK_6,
-			group : 'Captain Jack',
-			song : "Only You",
-			year : 2000
-		},	
-		{
-			pack : EN_1990_GR_PACK_6,
-			group : 'Captain Jack',
-			song : "Little Boy",
-			year : 1999
-		},		
-		{
-			pack : EN_1990_GR_PACK_6,
-			group : 'Sash',
-			song : "Equador",
-			year : 1996
-		},	
 		{
-			pack : EN_1990_GR_PACK_6,
-			group : 'Sash',
-			song : "Adelante",
-			year : 1999
-		},	
-		{
-			pack : EN_1990_GR_PACK_5,
-			group : 'Me & My',
-			song : "Dub I Dub (1995)"
-		},	
-		{
-			pack : EN_1990_GR_PACK_5,
-			group : 'Me & My',
-			song : "Baby Boy (1995)"
-		},	
-		{
-			pack : EN_1990_GR_PACK_5,
-			group : 'Me & My',
-			song : "Secret Garden (1997)",
+			pack : EN_1990_M_PACK_2,
+			group : 'Phil Collins',
+			song : 'Another day in paradise (1989)',
 			ignore : true
-		},	
-		{
-			pack : EN_1990_GR_PACK_1,
-			group : 'Foo Fighters',
-			song : "My Hero (1998)"
-		},	
-		{
-			pack : EN_1990_GR_PACK_4,
-			group : 'Cue',
-			song : "Hello (2000)"
-		},	
-		{
-			pack : EN_1990_GR_PACK_6,
-			group : 'Basic Element',
-			song : "Touch (1995)"
-		},	
-		{
-			pack : EN_1990_GR_PACK_6,
-			group : 'Basic Element',
-			song : "Move Me",
-			year : 1996
-		},	
-		{
-			pack : EN_1990_GR_PACK_6,
-			group : 'Basic Element',
-			song : "The Promise Man",
-			year : 1994
-		},			
-		{
-			pack : EN_1990_GR_PACK_6,
-			group : '2 Unlimited',
-			song : "Get Ready For This",
-			year : 1991
-		},	
-		{
-			pack : EN_1990_GR_PACK_6,
-			group : 'Corona',
-			song : "Baby Baby",
-			year : 1995
 		},
 		{
-			pack : EN_1990_GR_PACK_6,
-			group : 'Corona',
-			song : "Try Me Out",
-			year : 1995
+			pack : EN_1990_M_PACK_2,
+			group : 'Eric Clapton',
+			song : 'Tears in heaven (1992)'
 		},
 		{
-			pack : EN_1990_GR_PACK_6,
-			group : '2 Unlimited',
-			song : "Twilight Zone",
-			year : 1992
+			pack : EN_1990_M_PACK_1,
+			group : 'Robbie Williams',
+			song : "Freedom (1996)"
 		},
 		{
-			pack : EN_1990_GR_PACK_6,
-			group : '2 Unlimited',
-			song : "Tribal Dance",
-			year : 1993
+			pack : EN_1990_M_PACK_1,
+			group : 'Robbie Williams',
+			song : "South Of The Border (1997)"
 		},
 		{
-			pack : EN_1990_GR_PACK_5,
-			group : 'Portishead',
-			song : "Sour Times",
-			year : 1994
+			pack : EN_1990_M_PACK_1,
+			group : 'Robbie Williams',
+			song : "No Regrets (1998)"
 		},
 		{
-			pack : EN_1990_GR_PACK_5,
-			group : 'Portishead',
-			song : "Glory Box",
-			year : 1994
-		},
-		{
-			pack : EN_1990_GR_PACK_5,
-			group : 'L7',
-			song : "Drama",
-			year : 1992
-		},
-		{
-			pack : EN_1990_GR_PACK_5,
-			group : 'L7',
-			song : "Off the Wagon",
-			year : 1998
-		},
-		{
-			pack : EN_1990_GR_PACK_5,
-			group : 'Guano Apes',
-			song : "Open Your Eyes",
-			year : 1997
-		},
-		{
-			pack : EN_1990_GR_PACK_5,
-			group : 'Guano Apes',
-			song : "Lords Of The Boards",
-			year : 1999
-		},
-		{
-			pack : EN_1990_GR_PACK_6,
-			group : 'Brooklyn Bounce',
-			song : "Bass, Beats & Melody",
-			year : 2000
-		},
-		{
-			pack : EN_1990_GR_PACK_6,
-			group : 'Brooklyn Bounce',
-			song : "Get Ready to Bounce",
-			year : 1997
-		},
-		{
-			pack : EN_1990_GR_PACK_3,
-			group : 'NSYNC',
-			song : "Tearing up my heart",
-			year : 1998,
+			pack : EN_1990_M_PACK_1,
+			group : 'Moby',
+			song : "Natural Blues",
 			ignore : true
 		},
 		{
-			pack : EN_1990_GR_PACK_3,
-			group : 'Savage Garden',
-			song : "Chained to You",
-			year : 2000,
+			pack : EN_1990_M_PACK_1,
+			group : 'Moby',
+			song : "Porcelain",
 			ignore : true
-		},
-		{
-			pack : EN_1990_GR_PACK_3,
-			group : 'Savage Garden',
-			song : "All Around Me",
-			year : 1997
-		},
-		{
-			pack : EN_1990_GR_PACK_3,
-			group : 'Savage Garden',
-			song : "Violet",
-			year : 1994
-		},
-		{
-			pack : EN_1990_GR_PACK_3,
-			group : 'Pulp',
-			song : "Common People",
-			year : 1995
 		},
 		{
-			pack : EN_1990_GR_PACK_3,
-			group : 'Pulp',
-			song : "Disco 2000",
-			year : 1995
-		},
-		{
-			pack : EN_1990_GR_PACK_3,
-			group : 'Pulp',
-			song : "Mis-Shapes",
-			year : 1995
-		},
-		{
-			pack : EN_1990_GR_PACK_4,
-			group : 'UB40',
-			song : "Kingston Town",
-			year : 1990
-		},
-		{
-			pack : EN_1990_GR_PACK_3,
-			group : 'East 17',
-			song : "Stay Another Day",
-			year : 1994
-		},
-		{
-			pack : EN_1990_GR_PACK_3,
-			group : 'East 17',
-			song : "Hey Child",
-			year : 1996
-		},
-		{
-			pack : EN_1990_GR_PACK_3,
-			group : 'Backstreet Boys',
-			song : "We've Got It Goin' On",
-			year : 1995,
+			pack : EN_1990_M_PACK_2,
+			group : 'Fatboy Slim',
+			song : "Praise You",
 			ignore : true
 		},
 		{
-			pack : EN_1990_GR_PACK_3,
-			group : 'Backstreet Boys',
-			song : "I'll never break your heart",
-			year : 1995,
-			ignore : true
+			pack : EN_1990_M_PACK_2,
+			group : 'Seal',
+			song : "Crazy (1990)"
 		},
 		{
-			pack : EN_1990_GR_PACK_3,
-			group : 'Backstreet Boys',
-			song : "Larger than life",
-			year : 1998,
+			pack : EN_1990_M_PACK_1,
+			group : 'Ricky Martin',
+			song : "Private Emotion (ft Meja)",
 			ignore : true
-		},
-		{
-			pack : EN_1990_GR_PACK_1,
-			group : 'Pearl Jam',
-			song : "Alive",
-			year : 1991
-		},
-		{
-			pack : EN_1990_GR_PACK_1,
-			group : 'Pearl Jam',
-			song : "Jeremy",
-			year : 1992
 		},
 		{
-			pack : EN_1990_GR_PACK_1,
-			group : 'Alice In Chains',
-			song : "Would?",
-			year : 1992
+			pack : EN_1990_M_PACK_2,
+			group : 'Eric Clapton',
+			song : "Over The Rainbow (2002)",
+			ignore : true
 		},
 		{
-			pack : EN_1990_GR_PACK_1,
-			group : 'Alice In Chains',
-			song : "Man in the Box",
-			year : 1990
+			pack : EN_1990_M_PACK_2,
+			group : 'Michael Bolton',
+			song : "When a Man Loves a Woman (1991)"
 		},
 		{
-			pack : EN_1990_GR_PACK_3,
-			group : "Bomfunk MCs",
-			song : "Rocking, Just To Make Ya Move",
-			year : 1999,
+			pack : EN_1990_M_PACK_2,
+			group : 'Lenny Kravitz',
+			song : "Are You Gonna Go My Way (1993)",
 			ignore : true
 		},
 		{
-			pack : EN_1990_GR_PACK_3,
-			group : "Bomfunk MCs",
-			song : "Uprocking Beats",
-			year : 1998,
+			pack : EN_1990_M_PACK_1,
+			group : 'Chris Isaak',
+			song : "Wicked Game",
 			ignore : true
 		},
 		{
-			pack : EN_1990_GR_PACK_3,
-			group : "Bomfunk MCs",
-			song : "B-Boys & Flygirls",
-			year : 1999,
-			ignore : true
+			pack : EN_1990_M_PACK_1,
+			group : 'Ozzy Osbourne',
+			song : "Mama, I'm Coming Home (1991)"
 		},
 		{
-			pack : EN_1990_GR_PACK_3,
-			group : "Digital Underground",
-			song : "The Humpty Dance",
-			year : 1990
+			pack : EN_1990_M_PACK_1,
+			group : 'Ozzy Osbourne',
+			song : "See You on the Other Side (1995)"
 		},
 		{
-			pack : EN_1990_GR_PACK_3,
-			group : "Digital Underground",
-			song : "Kiss You Back",
-			year : 1991
+			pack : EN_1990_M_PACK_4,
+			group : 'Youssou NDour',
+			song : "7 Seconds (ft Neneh Cherry) (1994)"
 		},
 		{
-			pack : EN_1990_GR_PACK_5,
-			group : "Black Box",
-			song : "Everybody Everybody (1990)"
+			pack : EN_1990_M_PACK_2,
+			group : 'Everlast',
+			song : "Put your lights on (ft Santana) (1999)"
 		},
 		{
-			pack : EN_1990_GR_PACK_5,
-			group : "Black Box",
-			song : "Strike It Up (1990)"
+			pack : EN_1990_M_PACK_2,
+			group : 'Everlast',
+			song : "What Its Like (1998)"
 		},
 		{
-			pack : EN_1990_GR_PACK_11,
-			group : "New Radicals",
-			song : "You Get What You Give (1998)"
+			pack : EN_1990_M_PACK_2,
+			group : 'Everlast',
+			song : "Ends (1998)"
 		},
 		{
-			pack : EN_1990_GR_PACK_3,
-			group : "New Radicals",
-			song : "Someday We’ll Know",
-			year : 1999,
+			pack : EN_1990_M_PACK_2,
+			group : 'Fatboy Slim',
+			song : "Right Here Right Now",
 			ignore : true
 		},
 		{
-			pack : EN_1990_GR_PACK_1,
-			group : "Semisonic",
-			song : "Singing in My Sleep",
-			year : 1998,
-			ignore : true
+			pack : EN_1990_M_PACK_2,
+			group : 'ATB',
+			song : "9 PM - Till I Come (1998)"
 		},
 		{
-			pack : EN_1990_GR_PACK_1,
-			group : "Semisonic",
-			song : "Secret Smile",
-			year : 1998,
-			ignore : true
+			pack : EN_1990_M_PACK_2,
+			group : 'ATB',
+			song : "Don’t Stop (1999)"
 		},
 		{
-			pack : EN_1990_GR_PACK_3,
-			group : "Faithless",
-			song : "Insomnia",
-			year : 1995
+			pack : EN_1990_M_PACK_2,
+			group : 'ATB',
+			song : "Killer (1999)"
 		},
 		{
-			pack : EN_1990_GR_PACK_3,
-			group : "Faithless",
-			song : "Salva Mea",
-			year : 1995
+			pack : EN_1990_M_PACK_3,
+			group : 'Snoop Dogg',
+			song : "Who Am I (What's My Name?) (1993)"
 		},
 		{
-			pack : EN_1990_GR_PACK_3,
-			group : "Faithless",
-			song : "God Is a DJ",
-			year : 1998
+			pack : EN_1990_M_PACK_3,
+			group : 'Snoop Dogg',
+			song : "Still A G Thang (1998)"
 		},
 		{
-			pack : EN_1990_GR_PACK_5,
-			group : 'Salt-N-Pepa',
-			song : "Let's Talk About Sex",
-			year : 1991
+			pack : EN_1990_M_PACK_2,
+			group : 'Paul Van Dyk',
+			song : "For an Angel (1994)"
 		},
 		{
-			pack : EN_1990_GR_PACK_5,
-			group : 'Salt-N-Pepa',
-			song : "Shoop (1993)"
+			pack : EN_1990_M_PACK_1,
+			group : 'Haddaway',
+			song : "Rock My Heart (1993)"
 		},
 		{
-			pack : EN_1990_GR_PACK_5,
-			group : 'Salt-N-Pepa',
-			song : "Whatta Man (1993)"
+			pack : EN_1990_M_PACK_1,
+			group : 'E-Type',
+			song : "Do You Always (Have To Be Alone)",
+			ignore : true
 		},
 		{
-			pack : EN_1990_GR_PACK_3,
-			group : 'Wu-Tang Clan',
-			song : "C.R.E.A.M. (Cash Rules Everything Around Me) (1994)"
+			pack : EN_1990_M_PACK_2,
+			group : 'Lenny Kravitz',
+			song : "Believe (1993)"
 		},
 		{
-			pack : EN_1990_GR_PACK_3,
-			group : 'Wu-Tang Clan',
-			song : "Protect Ya Neck (1992)"
+			pack : EN_1990_M_PACK_4,
+			group : 'Darude',
+			song : "Sandstorm (1999)"
 		},
 		{
-			pack : EN_1990_GR_PACK_3,
-			group : 'Wu-Tang Clan',
-			song : "Aint Nuthing ta F' Wit (1993)"
+			pack : EN_1990_M_PACK_2,
+			group : 'Nana (Darkman)',
+			song : "Lonely (1997)"
 		},
 		{
-			pack : EN_1990_GR_PACK_3,
-			group : 'Nightcrawlers',
-			song : "Push the Feeling On (1992)"
+			pack : EN_1990_M_PACK_2,
+			group : 'Nana (Darkman)',
+			song : "Too Much Heaven (1998)",
+			ignore : true
 		},
 		{
-			pack : EN_1990_GR_PACK_3,
-			group : 'Nightcrawlers',
-			song : "Surrender Your Love (1995)"
+			pack : EN_1990_M_PACK_2,
+			group : 'Nana (Darkman)',
+			song : "He's Comin' (1997)"
 		},
 		{
-			pack : EN_1990_GR_PACK_3,
-			group : 'Naughty by Nature',
-			song : "O.O.P (1991)"
+			pack : EN_1990_M_PACK_1,
+			group : 'DJ Bobo',
+			song : "Love Is All Around (1995)"
 		},
 		{
-			pack : EN_1990_GR_PACK_3,
-			group : 'Naughty by Nature',
-			song : "Hip Hop Hooray (1993)"
+			pack : EN_1990_M_PACK_1,
+			group : 'DJ Bobo',
+			song : "Somebody Dance With Me (1992)"
 		},
 		{
-			pack : EN_1990_GR_PACK_11,
-			group : 'Deee-Lite',
-			song : "Groove Is in the Heart (1990)"
+			pack : EN_1990_M_PACK_3,
+			group : 'DMX',
+			song : "Ruff Ryders' Anthem (1998)"
 		},
 		{
-			pack : EN_1990_GR_PACK_1,
-			group : 'Stone Sour',
-			song : "Through Glass",
-			ignore : true
+			pack : EN_1990_M_PACK_3,
+			group : 'DMX',
+			song : "I Can Feel It (1998)"
 		},
 		{
-			pack : EN_1990_GR_PACK_1,
-			group : 'Stone Sour',
-			song : "Bother",
+			pack : EN_1990_M_PACK_3,
+			group : 'DMX',
+			song : "What's My Name? (1999)",
 			ignore : true
 		},
 		{
-			pack : EN_1990_GR_PACK_6,
-			group : 'Daze',
-			song : "Together forever (1997)"
-		},
-		{
-			pack : EN_1990_GR_PACK_4,
-			group : 'Duran Duran',
-			song : "Wild boys",
-			ignore : true
+			pack : EN_1990_M_PACK_1,
+			group : 'Dr Alban',
+			song : "Enemies (1998)"
 		},
 		{
-			pack : EN_1990_GR_PACK_5,
-			group : 'Army of Lovers',
-			song : "Crucify",
-			year : 1992,
-			ignore : true
+			pack : EN_1990_M_PACK_1,
+			group : 'Dr Alban',
+			song : "Long Time Ago (1997)"
 		},
 		{
-			pack : EN_1990_GR_PACK_5,
-			group : 'Army of Lovers',
-			song : "Sexual Revolution",
-			year : 1994,
-			ignore : true
+			pack : EN_1990_M_PACK_3,
+			group : 'Will Smith',
+			song : "Gettin' Jiggy Wit It (1998)"
 		},
 		{
-			pack : EN_1990_GR_PACK_5,
-			group : 'Army of Lovers',
-			song : "Obsession",
-			year : 1991,
+			pack : EN_1990_M_PACK_3,
+			group : 'Will Smith',
+			song : "Wild Wild West (ft Dru Hill and Kool Moe Dee) (1999)",
 			ignore : true
 		},
 		{
-			pack : EN_1990_GR_PACK_3,
-			group : 'East 17',
-			song : "It's Alright (1993)"
+			pack : EN_1990_M_PACK_2,
+			group : 'Seal',
+			song : "Killer (1990)"
 		},
-		{
-			pack : EN_1990_GR_PACK_5,
-			group : 'Spice Girls',
-			song : "Two Become One",
-			year : 1996,
-			ignore : true
-		},	
-		{
-			pack : EN_1990_GR_PACK_4,
-			group : 'Kind of Blue',
-			song : "Bitter Blue (1991)"
-		},	
 		{
-			pack : EN_1990_GR_PACK_3,
-			group : 'Chemical Brothers',
-			song : "Hey Boy Hey Girl (1999)"
+			pack : EN_1990_M_PACK_3,
+			group : '2Pac',
+			song : "Keep Ya Head Up (1993)"
 		},
 		{
-			pack : EN_1990_GR_PACK_10,
-			group : 'Right Said Fred',
-			song : "I'm Too Sexy (1991)"
+			pack : EN_1990_M_PACK_3,
+			group : '2Pac',
+			song : "Changes (ft Talent) (1998)"
 		},
 		{
-			pack : EN_1990_GR_PACK_6,
-			group : 'Maxx',
-			song : "Get A Way (1993)"
+			pack : EN_1990_M_PACK_3,
+			group : 'Ice Cube',
+			song : "It Was a Good Day (1993)"
 		},
 		{
-			pack : EN_1990_GR_PACK_6,
-			group : 'Maxx',
-			song : "No More (I Can't Stand It) (1994)"
+			pack : EN_1990_M_PACK_3,
+			group : 'Ice Cube',
+			song : "You Know How We Do It (1993)"
 		},
 		{
-			pack : EN_1990_GR_PACK_6,
-			group : 'Maxx',
-			song : "You Can Get It (1994)"
+			pack : EN_1990_M_PACK_3,
+			group : 'Nas',
+			song : "The World Is Yours (1994)"
 		},
 		{
-			pack : EN_1990_GR_PACK_6,
-			group : 'U96',
-			song : "Das Boot (1991)"
+			pack : EN_1990_M_PACK_3,
+			group : 'Nas',
+			song : "The Message (1996)"
 		},
 		{
-			pack : EN_1990_GR_PACK_6,
-			group : 'U96',
-			song : "Love Religion (1994)"
+			pack : EN_1990_M_PACK_3,
+			group : 'Nas',
+			song : "If I Ruled the World (Imagine That) (ft Lauryn Hill) (1996)"
 		},
 		{
-			pack : EN_1990_GR_PACK_6,
-			group : 'U96',
-			song : "Heaven (1996)"
+			pack : EN_1990_M_PACK_3,
+			group : 'Notorious B.I.G.',
+			song : "Juicy (1994)"
 		},
 		{
-			pack : EN_1990_GR_PACK_3,
-			group : 'Blur',
-			song : "The Universal (1995)"
+			pack : EN_1990_M_PACK_3,
+			group : 'Notorious B.I.G.',
+			song : "Big Poppa (1994)"
 		},
 		{
-			pack : EN_1990_GR_PACK_3,
-			group : 'Blur',
-			song : "Beetlebum (1997)"
+			pack : EN_1990_M_PACK_3,
+			group : 'Notorious B.I.G.',
+			song : "Hypnotize (1997)"
 		},
 		{
-			pack : EN_1990_GR_PACK_3,
-			group : 'Depeche Mode',
-			song : "It's No Good",
-			year : 1997,
+			pack : EN_1990_M_PACK_3,
+			group : 'LL COOL J',
+			song : "Loungin (Who Do Ya Luv) (1996)",
 			ignore : true
-		},
-		{
-			pack : EN_1990_GR_PACK_1,
-			group : 'Misfits',
-			song : "Dig Up Her Bones (1997)"
-		},
-		{
-			pack : EN_1990_GR_PACK_3,
-			group : 'Onyx',
-			song : "Slam (1993)"
-		},
-		{
-			pack : EN_1990_GR_PACK_1,
-			group : "Weezer",
-			song : "Buddy Holly (1994)"
-		},
-		{
-			pack : EN_1990_GR_PACK_1,
-			group : "Weezer",
-			song : "Say It Ain't So (1995)"
-		},
-		{
-			pack : EN_1990_GR_PACK_1,
-			group : "Weezer",
-			song : "Undone – The Sweater Song (1994)"
 		},
 		{
-			pack : EN_1990_GR_PACK_10,
-			group : "Fun Factory",
-			song : "Close to You (1995)"
-		},
-		{
-			pack : EN_1990_GR_PACK_10,
-			group : "Fun Factory",
-			song : "Take Your Chance (1994)"
-		},
-		{
-			pack : EN_1990_GR_PACK_10,
-			group : "Fun Factory",
-			song : "Pain (1994)"
-		},
-		{
-			pack : EN_1990_GR_PACK_10,
-			group : "C+C Music Factory",
-			song : "Gonna Make You Sweat (Everybody Dance Now) (1990)"
-		},
-		{
-			pack : EN_1990_GR_PACK_6,
-			group : "C+C Music Factory",
-			song : "Things That Make You Go Hmmm... (1991)",
+			pack : EN_1990_M_PACK_3,
+			group : 'LL COOL J',
+			song : "Mama Said Knock You Out (1991)",
 			ignore : true
 		},
 		{
-			pack : EN_1990_GR_PACK_6,
-			group : "C+C Music Factory",
-			song : "Here We Go (Let's Rock & Roll) (1991)",
+			pack : EN_1990_M_PACK_3,
+			group : 'LL COOL J',
+			song : "Around the Way Girl (1990)",
 			ignore : true
-		},
-		{
-			pack : EN_1990_GR_PACK_10,
-			group : "2 Brothers on the 4th Floor",
-			song : "Come Take My Hand (1995)"
-		},
-		{
-			pack : EN_1990_GR_PACK_10,
-			group : "2 Brothers on the 4th Floor",
-			song : "Dreams (Will Come Alive) (1994)"
-		},
-		{
-			pack : EN_1990_GR_PACK_10,
-			group : "2 Brothers on the 4th Floor",
-			song : "Can't Help Myself (1990)"
-		},
-		{
-			pack : EN_1990_GR_PACK_10,
-			group : "Mr. President",
-			song : "Up'n Away (1994)"
-		},
-		{
-			pack : EN_1990_GR_PACK_10,
-			group : "Mr. President",
-			song : "4 On the Floor (1995)"
-		},
-		{
-			pack : EN_1990_GR_PACK_10,
-			group : "Mr. President",
-			song : "I Give You My Heart (1996)"
 		},
 		{
-			pack : EN_1990_GR_PACK_10,
-			group : "Captain Hollywood Project",
-			song : "More and More (1992)"
+			pack : EN_1990_M_PACK_3,
+			group : 'Dr. Dre',
+			song : "Still D.R.E. (ft Snoop Dogg) (1999)"
 		},
 		{
-			pack : EN_1990_GR_PACK_10,
-			group : "Captain Hollywood Project",
-			song : "Only with You (1993)"
+			pack : EN_1990_M_PACK_3,
+			group : 'Dr. Dre',
+			song : "Keep Their Heads Ringin' (1995)"
 		},
 		{
-			pack : EN_1990_GR_PACK_10,
-			group : "Captain Hollywood Project",
-			song : "Love and Pain (1996)"
-		},
-		{
-			pack : EN_1990_GR_PACK_10,
-			group : "Cabballero",
-			song : "Hymn (1994)"
-		},
-		{
-			pack : EN_1990_GR_PACK_11,
-			group : "Semisonic",
-			song : "Closing Time (1998)"
-		},
-		{
-			pack : EN_1990_GR_PACK_10,
-			group : 'Urban Cookie Collective',
-			song : "The Key the Secret (1993)"
-		},
-		{
-			pack : EN_1990_GR_PACK_10,
-			group : 'Urban Cookie Collective',
-			song : "Feels Like Heaven (1993)"
-		},
-		{
-			pack : EN_1990_GR_PACK_3,
-			group : 'Jamiroquai',
-			song : "Cosmic Girl (1996)"
-		},
-		{
-			pack : EN_1990_GR_PACK_3,
-			group : 'Jamiroquai',
-			song : "Deeper Underground (1998)"
-		},
-		{
-			pack : EN_1990_GR_PACK_3,
-			group : 'Onyx',
-			song : "Throw Ya Gunz (1992)"
-		},
-		{
-			pack : EN_1990_GR_PACK_3,
-			group : 'Onyx',
-			song : "Last Dayz (1995)"
-		},
-		{
-			pack : EN_1990_GR_PACK_10,
-			group : 'Capella',
-			song : "Move On Baby (1994)"
-		},
-		{
-			pack : EN_1990_GR_PACK_10,
-			group : 'Capella',
-			song : "Tell Me the Way (1995)"
-		},
-		{
-			pack : EN_1990_GR_PACK_6,
-			group : 'Culture Beat',
-			song : "Crying in the Rain (1996)"
-		},
-		{
-			pack : EN_1990_GR_PACK_6,
-			group : 'Masterboy',
-			song : "Feel the Fire (1995)"
-		},
-		{
-			pack : EN_1990_GR_PACK_6,
-			group : 'Masterboy',
-			song : "Generation of Love (1995)"
-		},
-		{
-			pack : EN_1990_GR_PACK_10,
-			group : 'Real McCoy',
-			song : "Love & Devotion (1995)"
-		},
-		{
-			pack : EN_1990_GR_PACK_10,
-			group : 'Real McCoy',
-			song : "Run Away (1994)"
-		},
-		{
-			pack : EN_1990_GR_PACK_10,
-			group : 'Imperio',
-			song : "Atlantis (1996)"
-		},
-		{
-			pack : EN_1990_GR_PACK_10,
-			group : 'Imperio',
-			song : "Nostra Culpa (1995)"
-		},
-		{
-			pack : EN_1990_GR_PACK_10,
-			group : 'Imperio',
-			song : "Cyberdream (1996)"
-		},
-		{
-			pack : EN_1990_GR_PACK_11,
-			group : 'Stardust',
-			song : "Music Sounds Better with You (1998)"
+			pack : EN_1990_M_PACK_3,
+			group : 'Dr. Dre',
+			song : "Nuthin' but a 'G' Thang (ft Snoop Dogg) (1993)",
+			ignore : true
 		},
 		{
-			pack : EN_1990_GR_PACK_10,
-			group : 'Whigfield',
-			song : "Saturday Night (1994)"
+			pack : EN_1990_M_PACK_1,
+			group : 'DJ Bobo',
+			song : "Let the Dream Come True (1994)"
 		},
 		{
-			pack : EN_1990_GR_PACK_1,
-			group : 'Rage Against the Machine',
-			song : "Killing In the Name (1992)"
+			pack : EN_1990_M_PACK_2,
+			group : 'Nana (Darkman)',
+			song : "Remember the Time (1998)"
 		},
 		{
-			pack : EN_1990_GR_PACK_1,
-			group : 'Rage Against the Machine',
-			song : "Testify (1999)"
+			pack : EN_1990_M_PACK_3,
+			group : 'Warren G',
+			song : "Regulate (ft Nate Dogg) (1994)",
+			ignore : true
 		},
 		{
-			pack : EN_1990_GR_PACK_10,
-			group : 'Magic Affair',
-			song : "Give Me All Your Love (1994)"
+			pack : EN_1990_M_PACK_4,
+			group : 'Sir Mix-a-Lot',
+			song : "Baby Got Back (1992)"
 		},
 		{
-			pack : EN_1990_GR_PACK_10,
-			group : 'Magic Affair',
-			song : "Omen III (1994)"
+			pack : EN_1990_M_PACK_4,
+			group : 'Montell Jordan',
+			song : "This Is How We Do It (1995)"
 		},
 		{
-			pack : EN_1990_GR_PACK_11,
-			group : 'House of Pain',
-			song : "Jump Around (1992)"
+			pack : EN_1990_M_PACK_2,
+			group : 'Elton John',
+			song : "Can You Feel the Love Tonight (1994)"
 		},
-		{
-			pack : EN_1990_GR_PACK_10,
-			group : '20 Fingers',
-			song : "Short Dick Man (ft Gilette) (1994)"
-		},	
 		{
-			pack : EN_1990_GR_PACK_5,
-			group : 'Me & My',
-			song : "Let the Love Go On (1999)"
+			pack : EN_1990_M_PACK_2,
+			group : 'Elton John',
+			song : "Circle of Life (1994)"
 		},
 		{
-			pack : EN_1990_GR_PACK_3,
-			group : 'Beastie Boys',
-			song : "Sabotage (1994)"
+			pack : EN_1990_M_PACK_2,
+			group : 'Elton John',
+			song : "Believe (ft Paul Buckmaster) (1995)"
 		},
 		{
-			pack : EN_1990_GR_PACK_3,
-			group : 'Beastie Boys',
-			song : "Flute Loop (1994)"
+			pack : EN_1990_M_PACK_4,
+			group : "Israel Kamakawiwoʻole",
+			song : "Somewhere Over the Rainbow (1990)"
 		},
 		{
-			pack : EN_1990_GR_PACK_3,
-			group : 'Beastie Boys',
-			song : "Intergalactic (1998)"
+			pack : EN_1990_M_PACK_2,
+			group : 'Lenny Kravitz',
+			song : "Belong To You (1998)"
 		}
 ];
 
-let en_1990_gr_1 =	en_1990_gr.filter(item => item.pack == 1);
-let en_1990_gr_4 =	en_1990_gr.filter(item => item.pack == 4);
-let en_1990_gr_5 =	en_1990_gr.filter(item => item.pack == 5);
-let en_1990_gr_7 =	en_1990_gr.filter(item => item.pack == 7);
-let en_1990_gr_9 =	en_1990_gr.filter(item => item.pack == 9);
-let en_1990_gr_10 =	en_1990_gr.filter(item => item.pack == 10);
-let en_1990_gr_11 =	en_1990_gr.filter(item => item.pack == 11);
+let en_1990_m_1 =	en_1990_m.filter(item => item.pack == 1);
+let en_1990_m_2 =	en_1990_m.filter(item => item.pack == 2);
+let en_1990_m_3 =	en_1990_m.filter(item => item.pack == 3);
+let en_1990_m_4 =	en_1990_m.filter(item => item.pack == 4);
 
 
 let music = [
 	{
-		arr: en_1990_gr,
+		arr: en_1990_m,
 		lang: 'en',
 		year: '1990',
-		type: 'gr',
+		type: 'm',
 		packs: [
 				{
-					arr: en_1990_gr_5,
-					name: 'EN 1990s Groups: Pop 1'
+					arr: en_1990_m_1,
+					name: 'EN 1990s Male: Medium',
 				},
 				{
-					arr: en_1990_gr_4,
-					name: 'EN 1990s Groups: Pop 2'
+					arr: en_1990_m_2,
+					name: 'EN 1990s Male: Hard',
 				},
 				{
-					arr: en_1990_gr_7,
-					name: "EN 1990s Groups: Women's Vocals"
+					arr: en_1990_m_3,
+					name: 'EN 1990s Male: Rap',
 				},
 				{
-					arr: en_1990_gr_9,
-					name: 'EN 1990s Groups: Eurodance'
-				},
-				{
-					arr: en_1990_gr_10,
-					name: 'EN 1990s Groups: Eurodance 2'
-				},
-				{
-					arr: en_1990_gr_1,
-					name: 'EN 1990s Groups: Rock'
-				},
-				{
-					arr: en_1990_gr_11,
-					name: 'EN 1990s Groups: One Hit Wonders'
+					arr: en_1990_m_4,
+					name: 'EN 1990s Male: One Hit Wonder',
 				}
 			]
-	},
+	}
 ]
 
 let songs_to_map;
@@ -2428,12 +1415,12 @@ let generateImgPath;
 function setup(){
 	lang = 'en';
 	year = '1990';
-	artist_type = 'gr';
+	artist_type = 'm';
 	modeToggle = toggleArtist;
 	setMedia = setAudio;
 	rightAnswer = rightAnswer_RU;
 	count_time();
-	package_names = en_1990_gr_icon;
+	package_names = en_1990_m_icon;
 	show_packages(package_names.length);
 	document.body.scrollTop = document.documentElement.scrollTop = 0;
 	useUrlParam();
