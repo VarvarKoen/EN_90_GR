@@ -2061,6 +2061,11 @@ let en_1990_gr = [
 			pack : EN_1990_GR_PACK_3,
 			group : 'Beastie Boys',
 			song : "Intergalactic (1998)"
+		},
+		{
+			pack : EN_1990_GR_PACK_11,
+			group : '2 Eivissa',
+			song : "Oh La La La (1997)"
 		}
 ];
 
