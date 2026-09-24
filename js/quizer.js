@@ -2066,6 +2066,11 @@ let en_1990_gr = [
 			pack : EN_1990_GR_PACK_11,
 			group : '2 Eivissa',
 			song : "Oh La La La (1997)"
+		},
+		{
+			pack : EN_1990_GR_PACK_11,
+			group : 'Opus III',
+			song : "It's a Fine Day (1992)"
 		}
 ];
 
