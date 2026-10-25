@@ -411,20 +411,17 @@ let en_1990_gr = [
 		{
 			pack : EN_1990_GR_PACK_1,
 			group : "Guns N Roses",
-			song : "Don't Cry",
-			year : 1991
+			song : "Don't Cry (1991)"
 		},
 		{
 			pack : EN_1990_GR_PACK_1,
 			group : "Guns N Roses",
-			song : "November Rain",
-			year : 1991
+			song : "November Rain (1991)"
 		},
 		{
 			pack : EN_1990_GR_PACK_1,
 			group : "Guns N Roses",
-			song : "Knockin' On Heaven's Door",
-			year : 1991
+			song : "Knockin' On Heaven's Door (1991)"
 		},
 		{
 			pack : EN_1990_GR_PACK_1,
@@ -492,14 +489,12 @@ let en_1990_gr = [
 		{
 			pack : EN_1990_GR_PACK_1,
 			group : 'REM',
-			song : "Loosing My Religion",
-			year : 1991
+			song : "Loosing My Religion (1991)"
 		},
 		{
 			pack : EN_1990_GR_PACK_1,
 			group : 'REM',
-			song : "Shiny Happy People",
-			year : 1991
+			song : "Shiny Happy People (1991)"
 		},
 		{
 			pack : EN_1990_GR_PACK_1,
@@ -582,26 +577,22 @@ let en_1990_gr = [
 		{
 			pack : EN_1990_GR_PACK_1,
 			group : 'Blink 182',
-			song : "Dammit",
-			year : 1997
+			song : "Dammit (1997)"
 		},
 		{
 			pack : EN_1990_GR_PACK_1,
 			group : 'Blink 182',
-			song : "What's My Age Again?",
-			year : 1999
+			song : "What's My Age Again? (1999)"
 		},
 		{
 			pack : EN_1990_GR_PACK_1,
 			group : 'Blink 182',
-			song : "All The Small Things",
-			year : 2000
+			song : "All The Small Things (2000)"
 		},
 		{
 			pack : EN_1990_GR_PACK_1,
 			group : 'REM',
-			song : "Man On The Moon",
-			year : 1992
+			song : "Man On The Moon (1992)"
 		},
 		{
 			pack : EN_1990_GR_PACK_1,
@@ -2063,12 +2054,12 @@ let en_1990_gr = [
 			song : "Intergalactic (1998)"
 		},
 		{
-			pack : EN_1990_GR_PACK_11,
+			pack : EN_1990_GR_PACK_10,
 			group : '2 Eivissa',
 			song : "Oh La La La (1997)"
 		},
 		{
-			pack : EN_1990_GR_PACK_11,
+			pack : EN_1990_GR_PACK_10,
 			group : 'Opus III',
 			song : "It's a Fine Day (1992)"
 		}
