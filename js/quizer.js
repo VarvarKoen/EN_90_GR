@@ -725,32 +725,28 @@ let en_1990_gr = [
 		{
 			pack : EN_1990_GR_PACK_4,
 			group : 'Moloko',
-			song : "Sing in Back",
-			year : 1998
+			song : "Sing in Back (1998)"
 		},
 		{
 			pack : EN_1990_GR_PACK_4,
 			group : 'Beloved',
-			song : 'Sweet harmony',
-			year : 1993
+			song : 'Sweet harmony (1993)'
 		},
 		{
 			pack : EN_1990_GR_PACK_4,
 			group : 'Fugees',
-			song : "Killing Me Softly",
-			year : 1996
+			song : "Killing Me Softly (1996)"
 		},
 		{
 			pack : EN_1990_GR_PACK_4,
-			group : 'Kriss Kross',
-			song : "Jump",
-			year : 1992
+			group : 'Kriss Kross (1992)',
+			song : "Jump"
 		},
 		{
 			pack : EN_1990_GR_PACK_4,
 			group : 'Reamonn',
-			song : "Supergirl",
-			year : 2000
+			song : "Supergirl (2000)",
+			ignore : true
 		},
 		{
 			pack : EN_1990_GR_PACK_4,
@@ -2073,6 +2069,11 @@ let en_1990_gr = [
 			pack : EN_1990_GR_PACK_1,
 			group : 'Creed',
 			song : "Higher (1999)"
+		},
+		{
+			pack : EN_1990_GR_PACK_3,
+			group : 'Travis',
+			song : "Why Does It Always Rain on Me? (1999)"
 		}
 ];
 
