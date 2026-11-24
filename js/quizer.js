@@ -1681,7 +1681,8 @@ let en_1990_gr = [
 		{
 			pack : EN_1990_GR_PACK_11,
 			group : 'Deee-Lite',
-			song : "Groove Is in the Heart (1990)"
+			song : "Groove Is in the Heart (1990)",
+			ignore : true
 		},
 		{
 			pack : EN_1990_GR_PACK_1,
@@ -2067,6 +2068,11 @@ let en_1990_gr = [
 			pack : EN_1990_GR_PACK_11,
 			group : 'Warrant',
 			song : "Cherry Pie (1990)"
+		},
+		{
+			pack : EN_1990_GR_PACK_1,
+			group : 'Creed',
+			song : "Higher (1999)"
 		}
 ];
 
