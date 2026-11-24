@@ -587,7 +587,8 @@ let en_1990_gr = [
 		{
 			pack : EN_1990_GR_PACK_1,
 			group : 'Blink 182',
-			song : "All The Small Things (2000)"
+			song : "All The Small Things (2000)",
+			ignore : true
 		},
 		{
 			pack : EN_1990_GR_PACK_1,
@@ -725,7 +726,7 @@ let en_1990_gr = [
 		{
 			pack : EN_1990_GR_PACK_4,
 			group : 'Moloko',
-			song : "Sing in Back (1998)"
+			song : "Sing It Back (1998)"
 		},
 		{
 			pack : EN_1990_GR_PACK_4,
@@ -1125,7 +1126,8 @@ let en_1990_gr = [
 		{
 			pack : EN_1990_GR_PACK_4,
 			group : 'Crazy Town',
-			song : "Butterfly (2000)"
+			song : "Butterfly (2000)",
+			ignore : true
 		},
 		{
 			pack : EN_1990_GR_PACK_6,
@@ -1288,7 +1290,8 @@ let en_1990_gr = [
 			pack : EN_1990_GR_PACK_6,
 			group : 'Captain Jack',
 			song : "Only You",
-			year : 2000
+			year : 2000,
+			ignore : true
 		},	
 		{
 			pack : EN_1990_GR_PACK_6,
@@ -1332,7 +1335,8 @@ let en_1990_gr = [
 		{
 			pack : EN_1990_GR_PACK_4,
 			group : 'Cue',
-			song : "Hello (2000)"
+			song : "Hello (2000)",
+			ignore : true
 		},	
 		{
 			pack : EN_1990_GR_PACK_6,
@@ -1421,7 +1425,8 @@ let en_1990_gr = [
 			pack : EN_1990_GR_PACK_6,
 			group : 'Brooklyn Bounce',
 			song : "Bass, Beats & Melody",
-			year : 2000
+			year : 2000,
+			ignore : true
 		},
 		{
 			pack : EN_1990_GR_PACK_6,
@@ -1458,20 +1463,20 @@ let en_1990_gr = [
 		{
 			pack : EN_1990_GR_PACK_3,
 			group : 'Pulp',
-			song : "Common People",
-			year : 1995
+			song : "Common People (1995)",
+			ignore : true
 		},
 		{
 			pack : EN_1990_GR_PACK_3,
 			group : 'Pulp',
-			song : "Disco 2000",
-			year : 1995
+			song : "Disco 2000 (1995)",
+			ignore : true
 		},
 		{
 			pack : EN_1990_GR_PACK_3,
 			group : 'Pulp',
-			song : "Mis-Shapes",
-			year : 1995
+			song : "Mis-Shapes (1995)",
+			ignore : true
 		},
 		{
 			pack : EN_1990_GR_PACK_4,
