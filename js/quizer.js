@@ -1520,26 +1520,22 @@ let en_1990_gr = [
 		{
 			pack : EN_1990_GR_PACK_1,
 			group : 'Pearl Jam',
-			song : "Alive",
-			year : 1991
+			song : "Alive (1991)"
 		},
 		{
 			pack : EN_1990_GR_PACK_1,
 			group : 'Pearl Jam',
-			song : "Jeremy",
-			year : 1992
+			song : "Jeremy (1992)"
 		},
 		{
 			pack : EN_1990_GR_PACK_1,
 			group : 'Alice In Chains',
-			song : "Would?",
-			year : 1992
+			song : "Would? (1992)"
 		},
 		{
 			pack : EN_1990_GR_PACK_1,
 			group : 'Alice In Chains',
-			song : "Man in the Box",
-			year : 1990
+			song : "Man in the Box (1990)"
 		},
 		{
 			pack : EN_1990_GR_PACK_3,
@@ -2079,6 +2075,11 @@ let en_1990_gr = [
 			pack : EN_1990_GR_PACK_3,
 			group : 'Travis',
 			song : "Why Does It Always Rain on Me? (1999)"
+		},
+		{
+			pack : EN_1990_GR_PACK_11,
+			group : 'Nine Inch Nails',
+			song : "Closer (1994)"
 		}
 ];
 
